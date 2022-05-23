@@ -4,7 +4,7 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-5
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
+      .col-lg-7.col-xxl-5.py-4.py-sm-5.ps-sm-5.banner-principal__info.ps-4
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
@@ -48,15 +48,20 @@ export default {
   height: 100% !important
   width: 10%
 .banner-principal__info
-  padding-left: 80px  !important
+  padding-left: 14px  !important
   z-index: 3
-  padding:
+  margin-top: -20px !important
+  @media (max-width: 992px)
+    padding: 80px
+    margin-left: 120px
 
 
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
+    @media (max-width: 992px)
+      margin-top: 30px
 
   .tarjeta
     background-size: contain

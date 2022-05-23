@@ -19,15 +19,16 @@
 
     p.mb-5 Recordando lo expresado anteriormente, que la Lengua de Señas Colombiana (LSC) es una lengua ágrafa y que por lo tanto carece de símbolos gráficos, excepto los sistemas antes mencionados, podríamos hablar de traducir textos de una lengua hablada a la Lengua de Señas Colombiana (LSC). En este caso es necesario tomar en cuenta factores culturales, expresiones propias de la LSC., como la expansiones y reducciones, que ayudan a dar una mejor comprensión del texto (esto mismo se puede aplicar al proceso de interpretación).
 
-    .row.d-none.d-lg-block
-      .row.justify-content-center.align-items-center.mb-5.fondo-2(data-aos="zoom-in-down")
-        .col-lg-5
-          .jumbotron-4.p-3
-            p.mb-3 <b>¿Qué se busca en el discurso?</b>
-            p.mb-3 <b> ¿Cuál es el contenido del discurso? </b> (estructura textual, estrategias lingüísticas, el uso del silencio en la comunicación, entre otros).
-            p.mb-3 <b> ¿Cuáles son las ideas primarias y secundarias? </b>
-        .col-lg-5
-          img(src="@/assets/curso/images/tema4/img_2.svg" alt='', style="width:480px; display:block; margin:auto -11rem ;")
+    .row.justify-content-center
+      .col-lg-10.d-none.d-lg-block
+        .row.justify-content-center.align-items-center.mb-5.fondo-2.p-5(data-aos="zoom-in-down")
+          .col-lg-5
+            .jumbotron-4.p-2
+              p.mb-3 <b>¿Qué se busca en el discurso?</b>
+              p.mb-3 <b> ¿Cuál es el contenido del discurso? </b> (estructura textual, estrategias lingüísticas, el uso del silencio en la comunicación, entre otros).
+              p.mb-3 <b> ¿Cuáles son las ideas primarias y secundarias? </b>
+          .col-lg-5
+            img(src="@/assets/curso/images/tema4/img_2.svg" alt='', )
 
     .row.d-block.d-lg-none
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
@@ -46,7 +47,7 @@
       .h2 4.2 La toma de apuntes como apoyo a la traducción e interpretación
     
     .row.align-items-center.justify-content-center.mb-3     
-      .col-lg-9(data-aos="zoom-in-down")
+      .col-lg-10(data-aos="zoom-in-down")
         .jumbotron-6.mb-3.p-2
           .row.justify-content-center.align-items-center.p-2
             .col-lg-10
@@ -55,7 +56,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo. Formas de toma de apuntes como apoyo al proceso de traducción e interpretación.
+                  p #[b Anexo]. Formas de toma de apuntes como apoyo al proceso de traducción e interpretación.
     Separador
 
     #t_4_3.titulo-segundo
@@ -70,9 +71,12 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.py-3.mb-0
+                        h4 Enfoque
+                      th.py-3.mb-0
+                        h4 Variedades de modulación
+                      th.py-3.mb-0 
+                        h4 Ejemplo
                   tbody
                     tr
                       td
@@ -127,9 +131,12 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.py-3.mb-0
+                        h4 Enfoque
+                      th.py-3.mb-0
+                        h4 Variedades de modulación
+                      th.py-3.mb-0
+                        h4 Ejemplo
                   tbody
                     tr
                       td
@@ -187,9 +194,12 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.py-3.mb-0
+                        h4 Enfoque
+                      th.py-3.mb-0
+                        h4 Variedades de modulación
+                      th.py-3.mb-0
+                        h4 Ejemplo
                   tbody
                     tr
                       td
@@ -225,9 +235,12 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.py-3.mb-0
+                        h4 Enfoque
+                      th.py-3.mb-0
+                        h4 Variedades de modulación
+                      th.py-3.mb-0
+                        h4 Ejemplo
                   tbody
                     tr
                       td
@@ -272,9 +285,12 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.py-3.mb-0
+                        h4 Enfoque
+                      th.py-3.mb-0
+                        h4 Variedades de modulación
+                      th.py-3.mb-0
+                        h4 Ejemplo
                   tbody
                     tr
                       td
@@ -324,9 +340,12 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.py-3.mb-0
+                        h4 Enfoque
+                      th.py-3.mb-0
+                        h4 Variedades de modulación
+                      th.py-3.mb-0
+                        h4 Ejemplo
                   tbody
                     tr
                       td

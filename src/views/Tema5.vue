@@ -19,9 +19,10 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10(data-aos="zoom-in-down")
-        .jumbotron-7.mb-3.p-4
-          .row.justify-content-center.align-items-center
-            p.mb-3 La sociolingüística abarca una amplia variedad de tendencias o fenómenos en lo referente al estudio de una o más lenguas en el contexto social, por lo que definirla de manera precisa es una tarea compleja. Dichos fenómenos se relacionan con los siguientes factores sociales:
+        .jumbotron-7.mb-3.py-4.px-5
+          p.mb-3 La sociolingüística abarca una amplia variedad de tendencias o fenómenos en lo referente al estudio de una o más lenguas en el contexto social, por lo que definirla de manera precisa es una tarea compleja. Dichos fenómenos se relacionan con los siguientes factores sociales:
+          .row.justify.align-items-center
+            .col-lg-1
             .col-lg-8
               ul.lista-ul
                 li 
@@ -59,8 +60,8 @@
 
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-1
-        .h3.mb-0  Dialectología
+      .col-lg-2.bg-color-2.px-4.py-2
+        .h4.mb-0  Dialectología
 
     .row.align-items-center.justify-content-center.mb-3     
       .col-lg-10(data-aos="zoom-in-down")
@@ -146,155 +147,155 @@
 
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-3
-        .h3.mb-0 Características generales del registro coloquial
+      .col-lg-5.bg-color-2.px-4.py-2
+        .h4.mb-0 Características generales del registro coloquial
     
+    .row.align-items-center.justify-content-center.p-4
+      SlyderF.elemento.mb-5(columnas="col-6")(data-aos="fade-down")
+        .tarjeta.sp1.p-3.h-100
+          .row.justify-content-center.mb-3
+            p.my-3 <b> Conversación: </b> puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
+            .col-10
+                img.mb-5(src='@/assets/curso/images/tema5/img_5.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-check
+                    p Uso de repeticiones y redundancias. 
+                  li
+                    i.fas.fa-check
+                    p Elipsis y frases inacabadas.
+                  li 
+                    i.fas.fa-check
+                    p Oraciones cortas y sencillas.
+                  li
+                    i.fas.fa-check
+                    P Uso de onomatopeyas.
+                  li
+                    i.fas.fa-check
+                    P Abundan las contracciones.
+                  li
+                    i.fas.fa-check
+                    P Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.
+                
 
-    SlyderF.elemento.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
-      .tarjeta.sp1.p-3.h-100
-        .row.justify-content-center.mb-3
-          p.my-3 <b> Conversación: </b> puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
-          .col-10
-              img.mb-5(src='@/assets/curso/images/tema5/img_5.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  p Uso de repeticiones y redundancias. 
-                li
-                  i.fas.fa-check
-                  p Elipsis y frases inacabadas.
-                li 
-                  i.fas.fa-check
-                  p Oraciones cortas y sencillas.
-                li
-                  i.fas.fa-check
-                  P Uso de onomatopeyas.
-                li
-                  i.fas.fa-check
-                  P Abundan las contracciones.
-                li
-                  i.fas.fa-check
-                  P Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.
-              
-
-      
-      .tarjeta.sp1.p-3.h-100
-        .row.justify-content-center.mb-3
-          p.my-3 <b> Espontaneidad e imprecisión: </b> uso de un código poco o nada elaborado.ión: puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
-          .col-10
-              img.mb-3(src='@/assets/curso/images/tema5/img_6.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  p Uso de un artículo antes del antropónimo.
-                li
-                  i.fas.fa-check
-                  p Incoherencias, cambios de tema, razonamientos 
-                li 
-                  i.fas.fa-check
-                  p inacabados.
-                li
-                  i.fas.fa-check
-                  P Incorrecciones léxicas.
-                li
-                  i.fas.fa-check
-                  P Uso de apócopes.
+        
+        .tarjeta.sp1.p-3.h-100
+          .row.justify-content-center.mb-3
+            p.my-3 <b> Espontaneidad e imprecisión: </b> uso de un código poco o nada elaborado.ión: puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
+            .col-10
+                img.mb-3(src='@/assets/curso/images/tema5/img_6.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-check
+                    p Uso de un artículo antes del antropónimo.
+                  li
+                    i.fas.fa-check
+                    p Incoherencias, cambios de tema, razonamientos 
+                  li 
+                    i.fas.fa-check
+                    p inacabados.
+                  li
+                    i.fas.fa-check
+                    P Incorrecciones léxicas.
+                  li
+                    i.fas.fa-check
+                    P Uso de apócopes.
 
 
-      .tarjeta.sp1.p-4.h-100
-        .row.justify-content-center.mb-3
-          p.my-3 <b> Expresividad: </b> predomina con enunciados de carga expresiva, afectiva y emotiva.
-          .col-10
-              img(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;").mb-3
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  p Exceso de sufijos apreciativos.
-                li
-                  i.fas.fa-check
-                  p Uso de interjecciones.
-                li 
-                  i.fas.fa-check
-                  p Empleo de pronombres personales u deícticos.
-                li
-                  i.fas.fa-check
-                  P Utilización de comparaciones humorísticas.
-                li
-                  i.fas.fa-check
-                  P Uso de jerga y argot.
+        .tarjeta.sp1.p-4.h-100
+          .row.justify-content-center.mb-3
+            p.my-3 <b> Expresividad: </b> predomina con enunciados de carga expresiva, afectiva y emotiva.
+            .col-10
+                img(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;").mb-3
+                ul.lista-ul
+                  li 
+                    i.fas.fa-check
+                    p Exceso de sufijos apreciativos.
+                  li
+                    i.fas.fa-check
+                    p Uso de interjecciones.
+                  li 
+                    i.fas.fa-check
+                    p Empleo de pronombres personales u deícticos.
+                  li
+                    i.fas.fa-check
+                    P Utilización de comparaciones humorísticas.
+                  li
+                    i.fas.fa-check
+                    P Uso de jerga y argot.
 
-      .tarjeta.sp1.p-3.h-100
-        .row.justify-content-center.mb-3
-          p.my-3 <b> Contacto con el emisor: </b> el apoyo de los códigos extratextuales de las funciones fáticas.
-          .col-10
-              img.mb-4(src='@/assets/curso/images/tema5/img_8.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  p Modismos, refranes, frases propias.
-                li
-                  i.fas.fa-check
-                  p Uso de vocativos, saludos, apelaciones, felicitaciones.
-                li 
-                  i.fas.fa-check
-                  p Eufemismos.
-                li
-                  i.fas.fa-check
-                  P Pérdida de eufemística.
-               
+        .tarjeta.sp1.p-3.h-100
+          .row.justify-content-center.mb-3
+            p.my-3 <b> Contacto con el emisor: </b> el apoyo de los códigos extratextuales de las funciones fáticas.
+            .col-10
+                img.mb-4(src='@/assets/curso/images/tema5/img_8.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                ul.lista-ul
+                  li 
+                    i.fas.fa-check
+                    p Modismos, refranes, frases propias.
+                  li
+                    i.fas.fa-check
+                    p Uso de vocativos, saludos, apelaciones, felicitaciones.
+                  li 
+                    i.fas.fa-check
+                    p Eufemismos.
+                  li
+                    i.fas.fa-check
+                    P Pérdida de eufemística.
+                
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-3
-        .h3.text-center.mb-0 Uso técnico de las lenguas
+      .col-lg-5.bg-color-2.px-4.py-2
+        .h4.text-center.mb-0 Uso técnico de las lenguas
 
     p.mb-3 El uso diario de la lengua en la cotidianidad se escapa de la terminología académica, industrial o de alguna disciplina específica. Es conocido también como lenguaje técnico o tecnicismos y se refiere a todo el vocabulario o expresiones que pertenecen a un área o campo profesional específico. Generalmente, el intérprete o traductor tiene entrenamiento en algún campo y no en todas las áreas.
 
     .row.align-items-center.justify-content-center.mb-3  
-      .col-lg-4(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema5/img_9.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-5.mb-3(data-aos="fade-right") 
+        img(src='@/assets/curso/images/tema5/img_9.png'  alt='')
+      .col-lg-7(data-aos="fade-left") 
         p.mb-3 No solo se trata de conocer la terminología, sino también de reflejar el tono de manera objetiva, por lo que el traductor e intérprete debe entender y estar familiarizado con el tema. El grado de comprensión y emisión del mensaje dependerá del nivel de información que posea el intérprete. Es más común encontrar traductores técnicos que intérpretes de lengua de señas colombiana especializados en un campo profesional.
 
         p.mb-0 Los tecnicismos son monosémicos, por lo que solo los especialistas pueden distinguir con precisión términos propios de su ciencia. En ocasiones, un término puede tener la apariencia de una palabra del léxico coloquial, pero cuando se lee en un contexto técnico su significado es unívoco. Por lo tanto, el vocabulario técnico no puede ser empleado en el lenguaje coloquial. Lo único que estos pueden tener en común es su forma gramatical.
 
     p.mb-5 Para la muestra, el término “abandono” será expuesto a los tecnicismos y descripción propia de diferentes diccionarios:
 
-    .row.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")  
-      .col-lg-6
+    .row.align-items-stretch.justify-content-center.mb-3.d-flex(data-aos="zoom-in-down")  
+      .col-lg-5.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema5/ico_1.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
-            .p-5
-              h2 Diccionario de la Real Academia Española, RAE:
-              p.mb-5 Abandono: dejar solo algo o alguien alejándose de ello o dejando de cuidarlo.
+            .py-5.px-4
+              h4 Diccionario de la Real Academia Española, RAE:
+              p.mb-0 Abandono: dejar solo algo o alguien alejándose de ello o dejando de cuidarlo.
 
-      .col-lg-6
+      .col-lg-5.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema5/ico_2.svg' alt='AvatarTop')   
           .tarjeta.tarjeta--azul
             .p-4
-              h2 Diccionario de ciencias jurídicas, políticas y sociales, edición electrónica de Manuel Ossorio:
-              p Abandono: concepto más amplio que los de renuncia y dimisión, que en ningún caso pueden referirse a obligaciones o derechos que por su naturaleza o por la ley tienen carácter irrenunciable. 
+              h4 Diccionario de ciencias jurídicas, políticas y sociales, edición electrónica de Manuel Ossorio:
+              p.mb-0 Abandono: concepto más amplio que los de renuncia y dimisión, que en ningún caso pueden referirse a obligaciones o derechos que por su naturaleza o por la ley tienen carácter irrenunciable. 
 
-      .col-lg-6
+      .col-lg-5.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema5/ico_3.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h2 Diccionario virtual de biología, BioDic:
-              p Abandono: se aplica al fracaso de los padres o tutores para proporcionar las necesidades básicas a un niño por una privación emocional o física que interfiere con el crecimiento y desarrollo normal o que pone al niño en peligro.
+              h4 Diccionario virtual de biología, BioDic:
+              p.mb-0 Abandono: se aplica al fracaso de los padres o tutores para proporcionar las necesidades básicas a un niño por una privación emocional o física que interfiere con el crecimiento y desarrollo normal o que pone al niño en peligro.
 
-      .col-lg-6
+      .col-lg-5.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema5/ico_4.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
-            .p-4
-              h2 Diccionario etimológico castellano en línea:
-              p Abandono: viene del verbo abandonar y este del francés abandonner, y este de la expresión laisser à bandon (dejar en poder de alguien).
+            .px-4.py-5
+              h4 Diccionario etimológico castellano en línea:
+              p.mb-0 Abandono: viene del verbo abandonar y este del francés abandonner, y este de la expresión laisser à bandon (dejar en poder de alguien).
       
     p.mb-3 A medida que el hombre hace nuevos descubrimientos, hay que darles nombre, inventar vocablos nuevos, hay que crear neologismos; lo que también resulta extraño a la lengua y hace que la terminología técnica vaya en aumento. Mucha de la documentación científica y técnica está escrita en idiomas extranjeros, lo que requiere encontrar equivalencias entre idiomas para determinar el término correspondiente, de otro modo, hay que recurrir a los neologismos
 
@@ -306,29 +307,27 @@
     
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-1
-        .h3.mb-0 Conceptos
+      .col-lg-2.bg-color-2.px-4.py-2
+        .h4.mb-0 Conceptos
 
-    h3.mb-3 ¿Qué es la lengua fuente y la lengua meta?
+    h4.mb-3 ¿Qué es la lengua fuente y la lengua meta?
 
     .row.align-items-center.justify-content-center.mb-3     
       .col-lg-4(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema5/img_10.png'  alt='', style="width:380px; display:block; margin:auto 0 ;")
+        img.img-a(src='@/assets/curso/images/tema5/img_10.png'  alt='')
       .col-lg-6(data-aos="fade-left")
-        .jumbotron-2.mb-3.p-3
-          .row.justify-content-center.align-items-center.p-2
-            .col-lg-12
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  | La lengua fuente hace referencia a la lengua de partida, el objeto de la traducción o interpretación. También llamada de origen o de salida.
-                li
-                  i.fas.fa-check
-                  | La lengua meta es aquella como resultado de la traducción o interpretación, llamada también lengua traducida (traducción) o interpretada (interpretación)
+        .jumbotron-2.mb-3.py-2.px-4
+          ul.lista-ul
+            li 
+              i.fas.fa-check
+              | La lengua fuente hace referencia a la lengua de partida, el objeto de la traducción o interpretación. También llamada de origen o de salida.
+            li
+              i.fas.fa-check
+              | La lengua meta es aquella como resultado de la traducción o interpretación, llamada también lengua traducida (traducción) o interpretada (interpretación)
                
     p.mb-3 Para este componente se hará referencia a las dos lenguas que corresponden a este programa: La lengua de señas colombiana (LSC) y el español (escrito o hablado), siendo cualquiera de las dos la lengua fuente o la lengua meta. Por ello, se analizarán los factores gramaticales, pragmáticos y semánticos de las dos lenguas.
 
-    h3.mb-3 ¿Qué es la gramática en las lenguas orales?
+    h4.mb-3 ¿Qué es la gramática en las lenguas orales?
 
     p.mb-3 El término gramática viene del latín grammatĭca, y este del griego grammatikḗtékhne, donde tékhne significa arte o técnica; y grammatikḗ viene de grámma, que significa letra. Para los antiguos, este arte de las letras abarcaba todos los aspectos del discurso: ortografía, sintaxis, interpretación de los textos, entre otros. La gramática es el estudio de las reglas y principios que rigen el uso de las lenguas y la organización o combinación de las palabras dentro de las oraciones. La gramática es una parte de la lingüística o el estudio general del lenguaje. 
 
@@ -336,105 +335,102 @@
 
     .row.align-items-center.justify-content-center.mb-3     
       .col-lg-4(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema5/img_11.png'  alt='', style="width:350px; display:block; margin:auto 0 ;")
+        img.img-a(src='@/assets/curso/images/tema5/img_11.png'  alt='')
       .col-lg-8(data-aos="fade-left")
-        .jumbotron-2.mb-3.p-3
-          .row.justify-content-center.align-items-center.p-2
+        .jumbotron-2.mb-3.py-2.px-3
+          .row.justify-content-center.align-items-center.mb-0
             .col-lg-12
               ul.lista-ul
-                li 
+                li.mb-0 
                   i.fas.fa-check
                   | La morfología se encarga de la estructura de las palabras, de sus componentes internos, definiendo y clasificando sus unidades: morfología flexiva (las variantes de las palabras), la morfología derivativa (la formación de nuevas palabras, afijos) y los neologismos (composición). 
-                li
+                li.mb-0
                   i.fas.fa-check
                   | La sintaxis estudia las reglas y principios de los sintagmas (palabras o secuencia de palabras), así como sus funciones, clasificación, combinación y orden dentro de las oraciones.
-                li
+                li.mb-0
                   i.fas.fa-check
                   | La fonología se ocupa de estudiar los fonemas o sonidos vocálicos y consonánticos que forman una lengua. Interpreta la manera en la que los sonidos surgen a nivel abstracto o mental. Se escriben entre diagonales para representar el sonido gráficamente, por ejemplo: /s/ + /o/ + /l/ = sol.
 
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-1
-        .h3.mb-0 Gramática en LSC
+      .col-lg-3.bg-color-2.px-4.py-2
+        .h4.mb-0 Gramática en LSC
 
     p.mb-3 Al igual que en las lenguas orales y según las investigaciones de William Stokoe, las lenguas de señas también se estudian, tienen reglas y principios que rigen su uso, organización y combinación de sus diferentes partes dentro del discurso. No son simples códigos rudimentarios ni lingüísticos.
 
     p.mb-5 “Las lenguas de señas son lenguas naturales. Poseen la organización gramatical establecida por la lingüística para cualquier lengua, como son a) la doble articulación, b) la arbitrariedad del signo y c) la productividad”. Sign Languaje Structure. Stokoe (1981). Para Stokoe, el análisis tenía un esquema sencillo donde las manos se ubican en el espacio o en el cuerpo mientras realiza algún movimiento, de ahí estos tres componentes o aspectos:
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            h4.text-center.mg-top-4 Forma de las manos
-             
-      .col-lg-4.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_2.png", alt= "")
-          .tarjeta-up__content.bg-1
-            h4.text-center.mg-top-4 La ubicación
+    .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-down")  
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_1.png", alt= "")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/tj_11.png')})`}")
+            
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_2.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/tj_12.png')})`}")
 
-      .col-lg-4.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_3.png", alt= "")
-          .tarjeta-up__content.bg-1
-            h4.text-center.mg-top-4 El movimiento
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_3.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/tj_13.png')})`}")
+             
+      
           
 
-    p.mb-3 Estas son las unidades mínimas que destacó y que componen las señas. Un solo cambio en alguno de los componentes significa la transformación de la seña en otra. 
+    p.mb-5 Estas son las unidades mínimas que destacó y que componen las señas. Un solo cambio en alguno de los componentes significa la transformación de la seña en otra. 
 
     .row.mb-3.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-2
-        .h3.mb-0 Morfología de la LSC
-    p.mb-0 Alejandro Oviedo (2001), resalta
+      .col-lg-3.bg-color-2.px-4.py-2
+        .h4.mb-0 Morfología de la LSC
+    p.mb-0 #[b Alejandro Oviedo (2001), resalta]
 
     .row.align-items-center.align-items-center.my-5
       .col-lg-12
-        TabsA.color-acento-contenido.mt-5(data-aos="fade")
-    
-          .tarjeta.back-tab.p-4(titulo="La postura de la mano:")
+        TabsA.color-acento-contenido(data-aos="fade")
+          .tarjeta.back-tab.px-5.py-4(titulo="La postura de la mano:")
             
-            .row 
-              .col-lg-12.mb-4
-                h3 La postura de la mano: cómo funciona cada dedo. 
-              .row.p-3
-                .col-lg-2
-                  img(src="@/assets/curso/images/tema5/ico_5.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
-                .col-lg-10
-                  p.mb-0 <b> Rasgos articulatorios:</b> Hace referencia a las partes móviles, ubicación y orientación. 
-                  p <b> Matriz articulatoria: </b> Configuración manual, ubicación y orientación del articulador.
+            h4 La postura de la mano: cómo funciona cada dedo. 
+            .row.px-5.py-2.justify-content-center.aling-items-center
+              .col-lg-2.mb-3
+                img(src="@/assets/curso/images/tema5/ico_5.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
+              .col-lg-10
+                p.mb-0 <b> Rasgos articulatorios:</b> Hace referencia a las partes móviles, ubicación y orientación. 
+                p <b> Matriz articulatoria: </b> Configuración manual, ubicación y orientación del articulador.
                 
-          .tarjeta.back-tab.p-4(titulo="La actividad de la mano")
-            
-            .row 
-              .col-lg-12.mb-4
-                h3 La actividad de la mano: matriz segmental compuesta por:
-              .row.p-3
-                .col-lg-2
-                  img(src="@/assets/curso/images/tema5/ico_6.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
-                .col-lg-10
-                  p.mb-0 <b> Movimiento: </b> periodo en el que cambia la articulación.
-                  p <b> Detención: </b>  periodo en el que la articulación no hace cambios.
-                  p <b> Transición: </b>  periodo menor que el de la detención.
+          .tarjeta.back-tab.px-5.py-4(titulo="La actividad de la mano")
+            h4 La actividad de la mano: matriz segmental compuesta por:
+            .row.px-2.py-2.justify-content-center
+              .col-lg-3.mb-3
+                img.img-a(src="@/assets/curso/images/tema5/ico_6.svg",  alt='',)
+              .col-lg-9
+                p.mb-0 <b> Movimiento: </b> periodo en el que cambia la articulación.
+                p.mb-0 <b> Detención: </b>  periodo en el que la articulación no hace cambios.
+                p.mb-0 <b> Transición: </b>  periodo menor que el de la detención.
           
-          .tarjeta.back-tab.p-4(titulo="La actividad no manual:")
-            
-            .row 
-              .col-lg-12.mb-4
-                h3 La actividad no manual
-              .row.p-3
-                .col-lg-2
-                  img(src="@/assets/curso/images/tema5/ico_7.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
-                .col-lg-10
-                  p.mb-0 Rasgos no manuales con actividad como la cara (mejillas, cejas, boca, ojos, mentón), la cabeza y el cuerpo.
+          .tarjeta.back-tab.px-5.py-4(titulo="La actividad no manual:")
+            h4 La actividad no manual
+            .row.justify-content-center.aling-items-center.px-2.py-2
+              .col-lg-2.mb-3
+                img.img-a(src="@/assets/curso/images/tema5/ico_7.svg",  alt='',)
+              .col-lg-10
+                p.mb-0 Rasgos no manuales con actividad como la cara (mejillas, cejas, boca, ojos, mentón), la cabeza y el cuerpo.
               
     p.mb-3 Las señas pueden alterar su forma sistemáticamente, aunque existen algunas que no lo hacen, son las que sirven como conectores lógicos del discurso (como los son: entonces, después, aparte, pero) y los deícticos interrogativos (como, por ejemplo: qué, dónde, cuándo, quién, qué pasa). Además, algunas señas no pueden ser segmentadas en partes más pequeñas ya que ellas mismas son las unidades mínimas.
 
-    p.mb-3 En una conversación o discurso en LSC, una seña puede asumir algún rasgo de la seña que la antecede o de la seña que le sucede, lo que Oviedo llama “asimilación de la localización”. “Esta variación no es significativa, es decir, no añade ni quita significado al que ya tiene la seña”. Oviedo (2001). También pueden notarse cambios en las locaciones de inicio o fin, cambios de configuración manual, cambios de variación en el número de las señas por repetición en el espacio o por morfemas de número en las configuraciones.
+    p.mb-5 En una conversación o discurso en LSC, una seña puede asumir algún rasgo de la seña que la antecede o de la seña que le sucede, lo que Oviedo llama “asimilación de la localización”. “Esta variación no es significativa, es decir, no añade ni quita significado al que ya tiene la seña”. Oviedo (2001). También pueden notarse cambios en las locaciones de inicio o fin, cambios de configuración manual, cambios de variación en el número de las señas por repetición en el espacio o por morfemas de número en las configuraciones.
 
-    .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-4
-        .h3.mb-0 Sintaxis en la LSC
+    .row.mb-4.ps-2(data-aos="zoom-in-down")
+      .col-lg-3.bg-color-2.px-4.py-2
+        .h4.mb-0 Sintaxis en la LSC
 
     p.mb-3 La palabra sintaxis viene del griego sin que significa con y taxis que es orden. Así, la sintaxis es la parte de la gramática que pone orden a las palabras y forma oraciones. En el caso de las lenguas de señas también podemos hablar de una sintaxis o modo en el que están ordenadas las señas con su significado propio y sus partes, para transmitir mensajes complejos.
 
@@ -442,44 +438,43 @@
 
     p.mb-3 Los criterios generales que se utilizan para organizar el discurso son:
 
-    .row.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")    
-      .col-lg-4
-        img(src='@/assets/curso/images/tema5/img_15.png')
+    .row.align-items-stretch.justify-content-center.mb-5(data-aos="zoom-in-down")    
+      .col-lg-4.mb-3
+        img.img-a(src='@/assets/curso/images/tema5/img_15.png')
       .col-lg-8
-        .jumbotron-3.mb-3
-          .row.justify-content-center.align-items-center.p-3
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  | <b> Rasgos no manuales:</b> cabeza y cara (mirada, mejillas, cejas, boca, mentón). Cuerpo
-                li
-                  i.fas.fa-check
-                  | Coordenadas espaciales (abajo, arriba, derecha, izquierda, atrás, delante, centro, distante y mezcladas entre sí).
-                li 
-                  i.fas.fa-check
-                  | Contacto de mirada.
-                li 
-                  i.fas.fa-check
-                  | Manos (activa, pasiva, bimanual simétricas).
-                li 
-                  i.fas.fa-check
-                  | Traducción (significado aproximado en español).
-                li
-                  i.fas.fa-check
-                  | Número de repeticiones.
-                li 
-                  i.fas.fa-check
-                  | Información omitida (que no es pertinente).
-                li 
-                  i.fas.fa-check
-                  | Pausa perceptible.
-                li 
-                  i.fas.fa-check
-                  | Expresión o emoción (mímica, acción).
+        .jumbotron-3.mb-3.px-4.py-5
+          ul.lista-ul.mb-0
+            li.mb-0 
+              i.fas.fa-check
+              | #[b Rasgos no manuales:] cabeza y cara (mirada, mejillas, cejas, boca, mentón). Cuerpo
+            li.mb-0
+              i.fas.fa-check
+              | Coordenadas espaciales (abajo, arriba, derecha, izquierda, atrás, delante, centro, distante y mezcladas entre sí).
+            li.mb-0 
+              i.fas.fa-check
+              | Contacto de mirada.
+            li.mb-0 
+              i.fas.fa-check
+              | Manos (activa, pasiva, bimanual simétricas).
+            li.mb-0 
+              i.fas.fa-check
+              | Traducción (significado aproximado en español).
+            li.mb-0
+              i.fas.fa-check
+              | Número de repeticiones.
+            li.mb-0 
+              i.fas.fa-check
+              | Información omitida (que no es pertinente).
+            li.mb-0 
+              i.fas.fa-check
+              | Pausa perceptible.
+            li.mb-0 
+              i.fas.fa-check
+              | Expresión o emoción (mímica, acción).
 
-    .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-4
-        .h3.mb-0 Fonología en la LSC
+    .row.mb-3.ps-2(data-aos="zoom-in-down")
+      .col-lg-3.bg-color-2.px-4.py-2
+        .h4.mb-0 Fonología en la LSC
 
     p.mb-3 Los trabajos realizados por William Stokoe en 1960 sobre la Lengua de Señas Americana (ASL), Lidell en 1993 y Johnson en 1995 constituyen la base para hablar de fonología en las lenguas de señas. El desarrollo de la fonología aplicada a las lenguas de señas mostró a los primeros lingüistas que también tienen un carácter secuencial; lo que condujo al desarrollo de un sistema de notación fonética para las unidades de segmentación de los signos. 
 
@@ -512,7 +507,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
 
-      .col-lg-4.col-auto.mb-3.mb-lg-0
+      .col-lg-3.col-auto.mb-3.mb-lg-0
         .tarjeta
             img.mb-3(src="@/assets/curso/images/tema5/img_20.png", alt= "")
             h4.mb-3  Punto de contacto:
@@ -520,11 +515,11 @@
 
       .col-lg-4.col-auto.mb-3.mb-lg-0
         .tarjeta
-            img.mb-5(src="@/assets/curso/images/tema5/img_21.png", alt= "")
+            img.mb-3(src="@/assets/curso/images/tema5/img_21.png", alt= "")
             h4.my-3  Plano:
             p Donde se realiza seña, según la distancia que lo separa del cuerpo. Plano 1: contacto con el cuerpo. Plano 4: lugar más alejado (los brazos estirados hacia delante).
 
-      .col-lg-4.col-auto.mb-3.mb-lg-0
+      .col-lg-3.col-auto.mb-3.mb-lg-0
         .tarjeta
             img.mb-3(src="@/assets/curso/images/tema5/img_22.png", alt= "")
             h4.my-3  Componente no manual:
@@ -533,11 +528,11 @@
     p.mb-5 “La lengua de señas se puede definir de la misma forma que una lengua oral cualquiera, debido a que la lengua de señas también es una lengua natural, y que por lo tanto se puede utilizar una definición amplia, es decir que es un sistema arbitrario de señas por medio del cual las personas sordas realizan sus actividades comunicativas dentro de una determinada cultura”. Señas y Palabras. Pietrosemoli, (1990).
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-2
-        .h3.mb-0 Pragmática del español y la LSC
+      .col-lg-4.bg-color-2.px-4.py-2
+        .h4.mb-0 Pragmática del español y la LSC
 
     .row.align-items-center.justify-content-center.mb-3  
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-6.mb-3(data-aos="fade-right") 
           p.mb-3 La semántica abstrae al usuario, se concentra en el vínculo que existe entre los signos y los objetos; por su parte, la sintaxis considera entre los signos, sin prestar atención a los usuarios o a los significados; finalmente la pragmática se centra en el lenguaje tal y como se expresa en una situación comunicativa concreta.
 
           p.mb-0 La pragmática estudia cómo se usa el lenguaje y se relacionan el enunciado, el contexto y los interlocutores. Esta rama de la lingüística también conocida como pragmalingüística, repara sobre todo la teoría del habla y cómo se desenvuelve la conversación e interacción en determinados contextos. El contexto se refiere a la situación en la que se desarrolla el acto comunicativo y las relaciones interpersonales entre los hablantes. 
@@ -578,7 +573,7 @@
     p.mb-5 En el caso particular de la minoría sorda que está sujeta a convivir en una sociedad mayormente oyente y oralizada, deben estar en constante contacto tanto con su comunidad como con el resto del mundo. Así, las situaciones de contacto de las personas sordas pueden ser:
 
     .row.align-items-center.justify-content-center.mb-5  
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-3(data-aos="fade-right")
         img.mb-3(src='@/assets/curso/images/tema5/img_24.png')
       .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/images/tema5/img_25.svg')
@@ -603,38 +598,38 @@
     .row.align-items-stretch.justify-content-center.mb-3(data-aos="zoom-in-down")    
       .col-lg-7
         .jumbotron-3.mb-3.p-4
-          ul.lista-ul.mg-bottom-li
-            li
+          ul.lista-ul
+            li.mb-0
               i.fas.fa-check
               | El estatus en las relaciones.
-            li
+            li.mb-0
               i.fas.fa-check
               | La distancia física.
-            li 
+            li.mb-0 
               i.fas.fa-check
               | La rigidez del cuerpo.
-            li 
+            li.mb-0 
               i.fas.fa-check
               | El registro formal o informal.
             li 
               i.fas.fa-check
               | Los rasgos no manuales.
-            li
+            li.mb-0
               i.fas.fa-check
               | El nivel del manejo de la LSC y/o el español con su configuración manual.
-            li 
+            li.mb-0 
               i.fas.fa-check
               | La cantidad de participantes.
-            li 
+            li.mb-0 
               i.fas.fa-check
               | El espacio
-            li 
+            li.mb-0 
               i.fas.fa-check
               | La velocidad
-            li 
+            li.mb-0 
               i.fas.fa-check
               | El tiempo
-            li 
+            li.mb-0 
               i.fas.fa-check
               | El tema
 
@@ -644,92 +639,109 @@
     p.mb-5 Por su parte, las interacciones pueden ser:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-down")  
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_1_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img(src="@/assets/curso/images/tema5/ico_12.svg", alt= "", style="width:100px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Públicas
-             
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_2_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img(src="@/assets/curso/images/tema5/ico_13.svg", alt= "", style="width:70px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Privadas
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_1_1.png", alt= "")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_12.png')})`}")
+            
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_2_1.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_13.png')})`}")
 
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_3_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img-1(src="@/assets/curso/images/tema5/ico_10.svg", alt= "", style="width:100px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Íntimas
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_3_1.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_14.png')})`}")
+      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_4_1.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_15.png')})`}")
 
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_4_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img-1(src="@/assets/curso/images/tema5/ico_11.svg", alt= "", style="width:100px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Sociales
+      
     
     .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-down")  
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_5_1.png", alt= "")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_16.png')})`}")
 
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_5_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img-1(src="@/assets/curso/images/tema5/ico_8.svg", alt= "", style="width:100px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Institucionales
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_6_1.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_17.png')})`}")
 
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_6_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img-1(src="@/assets/curso/images/tema5/ico_9.svg", alt= "", style="width:100px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Laborales
-
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_7_1.png", alt= "")
-          .tarjeta-up__content.bg-1
-            img.mx-img-1(src="@/assets/curso/images/tema5/ico_14.svg", alt= "", style="width:100px; display:block; margin:auto 0 ;").mb-3
-            h4.text-center.mg-top-4 Cotidianas
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_7_1.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/ico_18.png')})`}")
 
     .row.my-5.ps-2(data-aos="zoom-in-down")
-      .col-8.col-lg-6.bg-color-5
-        .h3.mb-0 Tipología y estructuras de textos de la lengua fuente y meta
+      .col-lg-6.bg-color-2.px-3.py-2
+        .h4.mb-0.text-center Tipología y estructuras de textos de la lengua fuente y meta
     
     p.mb-5 El texto puede referirse a una expresión oral, corporal o escrita como acto de comunicación de signos que forman un mensaje coherente con una finalidad específica. Los textos se pueden clasificar según diferentes criterios: 
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-down") 
+    .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-down")  
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_8.png", alt= "")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/tj_14.png')})`}")
+            
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_9.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/tj_15.png')})`}")
 
-      .col-lg-4.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_8.png", alt= "")
-          .tarjeta-up__content.bg-2
-            h4.text-center.mg-top-4 La forma que adopta el mensaje.
-
-      .col-lg-4.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_9.png", alt= "")
-          .tarjeta-up__content.bg-3
-            h4.text-center.mg-top-4 La intención del emisor.
-
-      .col-lg-4.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema5/tj_10.png", alt= "")
-          .tarjeta-up__content.bg-4
-            h4.text-center.mg-top-4 El ámbito donde se producen
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img.img-a(src="@/assets/curso/images/tema5/tj_10.png", alt= "")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema5/tj_16.png')})`}")
 
     p.mb-5 Pueden diferenciarse algunos tipos de textos según la forma del discurso, sea este oral o en lengua de señas:
 
     .row.align-items-center.justify-content-center.mb-5  
       .col-lg-5(data-aos="fade-right")
         img.mb-3(src='@/assets/curso/images/tema5/img_29.png')
-      .col-lg-3(data-aos="fade-left")
-        img(src='@/assets/curso/images/tema5/img_30.svg')
+      .col-lg-4(data-aos="fade-left")
+        .bg_list_1.p-2.text-center.mb-2
+          p.mb-0 Narrativos
 
+        .bg_list_2.p-2.text-center.mb-2
+          p.mb-0 Descriptivos
 
+        .bg_list_3.p-2.text-center.mb-2
+          p.mb-0 Dialogados
+
+        .bg_list_4.p-2.text-center.mb-2
+          p.mb-0 Expositivos
+
+        .bg_list_5.p-2.text-center.mb-2
+          p.mb-0 Argumentativos
 
 
   
@@ -783,34 +795,4 @@ export default {
   },
 }
 </script>
-<style lang="sass">
-.tarjeta-up
-  overflow: hidden
-  position: relative
-  .tarjeta-up__content
-    position: absolute
-    bottom: -200%
-    width: 100%
-    height: 90%
-    padding: 2rem
-    transition: bottom 0.7s ease-in-out
-    &.bg-1
-        background:  rgb(56,125,184)
-        h1, h2, h3, h4, h5, p
-          color: $white
-    &.bg-2
-        background-color: #E1F97D
-        h1, h2, h3, h4, h5, p
-          color: $black
-    &.bg-3
-        background-color:  #EDF7C2
-        h1, h2, h3, h4, h5, p
-          color: $black
-    &.bg-4
-        background-color:  #F6FBE1
-        h1, h2, h3, h4, h5, p
-          color: $black
-  &:hover
-    .tarjeta-up__content
-      bottom: 0%
-</style>
+<style lang="sass"></style>

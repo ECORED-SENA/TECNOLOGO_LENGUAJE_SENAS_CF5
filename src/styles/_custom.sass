@@ -39,10 +39,7 @@
   background-color: #B4D0E8
   margin-left: -80px
   width: 380px
-  order-top-left-radius: 15px
-  border-top-right-radius: 15px
-  border-bottom-right-radius: 15px
-  border-bottom-left-radius: 15px
+  border-radius: 10px
 .jumbotron-5
   background-color: #B4D0E8
   width: 380px
@@ -52,6 +49,10 @@
   border-top-right-radius: 15px
   border-bottom-right-radius: 15px
   border-bottom-left-radius: 15px
+  @media (max-width: 992px)
+    height:  320px
+    width: 305px
+    margin-left: 18px
 .jumbotron-6
   background-color: #FFFFFF
   border-top-left-radius: 15px
@@ -79,32 +80,26 @@
 .back-tab
   background-color: #DCEAF6
 .fondo-1
-  background-image: url('../assets/curso/images/tema1/back_1.png')
-  background-repeat: no-repeat
-  background-size: cover
-  position: relative
-  padding: 20px
-  left: 100px
-  @media (max-width: 992px)
+  background-color: #F6F6F6
+  border-radius: 10px
+  /*@media (max-width: 992px)
     width: 430px
     margin-left: -100px
     margin-bottom: -98px !important
     bottom: 70px
-    top: -30px
+    top: -30px*/
 .fondo-2
   background-image: url('../assets/curso/images/tema4/back_1_1.png')
   background-repeat: no-repeat
   background-size: contain
   position: relative
-  padding: 20px
-  left: 180px
   
 .lista-ul--color li > i:first-of-type 
   color: #1DD1FF
 
-.fa, .fas 
+/*.fa, .fas 
   font-weight: 900
-  color: #1DD1FF
+  color: #1DD1FF*/
 .fa
   color: #000
 .back-table
@@ -112,22 +107,15 @@
 .th-1
 	background-color: #F6F6F6
 .bg-color-1
-  padding: 8px
+  padding: 10px
   background-color: #CCE951
   max-width: 180px !important	
-  border-top-left-radius: 15px
-  border-top-right-radius: 15px
-  border-bottom-right-radius: 15px
-  border-bottom-left-radius: 15px
+  border-radius: 10px
+  
 
 .bg-color-2
-  padding: 8px
   background-color: #CCE951
-  width: 380px !important	
-  border-top-left-radius: 15px
-  border-top-right-radius: 15px
-  border-bottom-right-radius: 15px
-  border-bottom-left-radius: 15px
+  border-radius: 30px
 
 .bg-color-3
   padding: 8px
@@ -174,16 +162,16 @@
   height: 467px
   @media (max-width: 992px)
     height:  620px
-    width: 250px
-    margin-left: 70px
+    width: 235px
+    margin-left: 10px
 
 .color-tarjeta-slyder-2
   background-color: #E1ECF5
   height: 467px
   @media (max-width: 992px)
     height:  620px
-    width: 250px
-    margin-left: 70px
+    width: 235px
+    margin-left: 10px
 
 
 .slyder-f__btn i 
@@ -203,13 +191,16 @@
     color: $white
   @media (max-width: 992px)
     height:  620px
-    width: 250px
-    margin-left: 70px
+    width: 350px
+    margin-left: -27px
 
 .bg_grad-02
-  background-color: #C7D5E1
+  background-color: #DFEDF8
   background-repeat: no-repeat
   background-size: cover
+  @media (max-width: 992px)
+    width: 390px
+    margin-left: -24px
 
 .bac-table
   background-color: #FFFF
@@ -241,13 +232,100 @@
   bottom: 4%
 .cajon-b.color-primario::before 
   background-color: #D5E6F5
+
 .sp1
-  background: #CFE8FE
+  background-color: #CFE8FE
+  @media (max-width: 992px)
+    height:  200px
+    width: 325px
+    margin-left: 10px
+
+
+
 .horizontal-scroll
     align-items: stretch!important
 .mg-bottom-li
   line-height: 12px !important
+  
 .mx-img
   margin-left: 5.2rem !important
 .mx-img-1
   margin-left: 4rem !important
+
+.banner-principal__accion
+  margin-left: -40px
+
+.lista-ol--cuadro__vineta
+  color: #12263F !important
+  font-weight: bold
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.td_width
+  width: 18% !important
+
+.lista-ul li > i:first-of-type, .lista-ul--separador li > i:first-of-type, .lista-ul--color li > i:first-of-type
+  color: #387DB8
+
+.fas.fa-check
+  color: #1DD1FF !important
+
+.center_tar 
+  display: flex
+  align-items: center
+
+
+.slyder-a__bullets__item--active
+  background-color: #387DB8 !important
+
+.slyder-a__bullets__item
+  background-color: #A1BACE
+
+.text-ce
+  text-align-last:  center !important
+
+.img-a 
+  display: block 
+  margin: auto   
+  width: auto
+  height: auto
+
+.bg_list_1
+  border-radius: 30px
+  background-color: #387DB8
+  p
+    color: white !important
+
+.bg_list_2
+  border-radius: 30px
+  background-color: #5B9DD5
+  p
+    color: white !important
+
+.bg_list_3
+  border-radius: 30px
+  background-color: #85BBE9
+
+.bg_list_4
+  border-radius: 30px
+  background-color: #B5D8F6
+
+.bg_list_5
+  border-radius: 30px
+  background-color: #D7E9F9
+
+.slyder-a__bullets
+  bottom: 0px !important
+
+.boton, .boton--sm 
+  background-color: #FE9A2A
+  color: #12263F
+  padding: 10px 15px
+  border-radius: 5px
+  display: inline-block
+  display: inline-flex
+  align-items: center
+  transform: scale(1)
+  @media (max-width: 992px)
+    margin-bottom: 60px
