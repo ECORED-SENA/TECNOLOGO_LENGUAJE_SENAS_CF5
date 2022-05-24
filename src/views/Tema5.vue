@@ -183,21 +183,21 @@
                 .col-10
                   img.mb-5(src='@/assets/curso/images/tema5/img_6.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
                   ul.lista-ul
-                  li 
-                    i.fas.fa-check
-                    p Uso de un artículo antes del antropónimo.
-                  li
-                    i.fas.fa-check
-                    p Incoherencias, cambios de tema, razonamientos 
-                  li 
-                    i.fas.fa-check
-                    p inacabados.
-                  li
-                    i.fas.fa-check
-                    P Incorrecciones léxicas.
-                  li
-                    i.fas.fa-check
-                    P Uso de apócopes.
+                    li 
+                      i.fas.fa-check
+                      p Uso de un artículo antes del antropónimo.
+                    li
+                      i.fas.fa-check
+                      p Incoherencias, cambios de tema, razonamientos 
+                    li 
+                      i.fas.fa-check
+                      p inacabados.
+                    li
+                      i.fas.fa-check
+                      P Incorrecciones léxicas.
+                    li
+                      i.fas.fa-check
+                      P Uso de apócopes.
 
 
           .tarjeta.color-tarjeta-slyder-4.h-100
@@ -206,21 +206,21 @@
                 .col-10
                   img.my-4(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
                   ul.lista-ul
-                  li 
-                    i.fas.fa-check
-                    p Exceso de sufijos apreciativos.
-                  li
-                    i.fas.fa-check
-                    p Uso de interjecciones.
-                  li 
-                    i.fas.fa-check
-                    p Empleo de pronombres personales u deícticos.
-                  li
-                    i.fas.fa-check
-                    P Utilización de comparaciones humorísticas.
-                  li
-                    i.fas.fa-check
-                    P Uso de jerga y argot.
+                    li 
+                      i.fas.fa-check
+                      p Exceso de sufijos apreciativos.
+                    li
+                      i.fas.fa-check
+                      p Uso de interjecciones.
+                    li 
+                      i.fas.fa-check
+                      p Empleo de pronombres personales u deícticos.
+                    li
+                      i.fas.fa-check
+                      P Utilización de comparaciones humorísticas.
+                    li
+                      i.fas.fa-check
+                      P Uso de jerga y argot.
 
           .tarjeta.color-tarjeta-slyder-4.h-100
             .row.justify-content-center.mb-3.p-4
@@ -228,18 +228,18 @@
                 .col-10
                   img.my-5(src='@/assets/curso/images/tema5/img_8.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
                   ul.lista-ul
-                  li 
-                    i.fas.fa-check
-                    p Modismos, refranes, frases propias.
-                  li
-                    i.fas.fa-check
-                    p Uso de vocativos, saludos, apelaciones, felicitaciones.
-                  li 
-                    i.fas.fa-check
-                    p Eufemismos.
-                  li
-                    i.fas.fa-check
-                    P Pérdida de eufemística.
+                    li 
+                      i.fas.fa-check
+                      p Modismos, refranes, frases propias.
+                    li
+                      i.fas.fa-check
+                      p Uso de vocativos, saludos, apelaciones, felicitaciones.
+                    li 
+                      i.fas.fa-check
+                      p Eufemismos.
+                    li
+                      i.fas.fa-check
+                      P Pérdida de eufemística.
                 
 
     .row.mb-5.ps-2(data-aos="zoom-in-down")
