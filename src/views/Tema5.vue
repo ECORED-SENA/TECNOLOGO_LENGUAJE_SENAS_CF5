@@ -150,41 +150,39 @@
       .col-lg-5.bg-color-2.px-4.py-2
         .h4.mb-0 Características generales del registro coloquial
     
-    .row.align-items-center.justify-content-center.p-4
-      SlyderF.elemento.mb-5(columnas="col-6")(data-aos="fade-down")
-        .tarjeta.sp1.p-3.h-100
-          .row.justify-content-center.mb-3
-            p.my-3 <b> Conversación: </b> puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
-            .col-10
-                img.mb-5(src='@/assets/curso/images/tema5/img_5.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
-                ul.lista-ul
-                  li 
-                    i.fas.fa-check
-                    p Uso de repeticiones y redundancias. 
-                  li
-                    i.fas.fa-check
-                    p Elipsis y frases inacabadas.
-                  li 
-                    i.fas.fa-check
-                    p Oraciones cortas y sencillas.
-                  li
-                    i.fas.fa-check
-                    P Uso de onomatopeyas.
-                  li
-                    i.fas.fa-check
-                    P Abundan las contracciones.
-                  li
-                    i.fas.fa-check
-                    P Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.
-                
 
-        
-        .tarjeta.sp1.p-3.h-100
-          .row.justify-content-center.mb-3
-            p.my-3 <b> Espontaneidad e imprecisión: </b> uso de un código poco o nada elaborado.ión: puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
-            .col-10
-                img.mb-3(src='@/assets/curso/images/tema5/img_6.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
-                ul.lista-ul
+    .row.align-items-center.justify-content-center.p-4
+      SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in-down")
+          .tarjeta.color-tarjeta-slyder-3.h-100
+            .row.justify-content-center.mb-3.p-4
+                p.my-3 <b> Conversación: </b> puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
+                .col-10
+                  img.my-5(src='@/assets/curso/images/tema5/img_5.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                  ul.lista-ul
+                    li 
+                      i.fas.fa-check
+                      p Uso de repeticiones y redundancias. 
+                    li
+                      i.fas.fa-check
+                      p Elipsis y frases inacabadas.
+                    li 
+                      i.fas.fa-check
+                      p Oraciones cortas y sencillas.
+                    li
+                      i.fas.fa-check
+                      P Uso de onomatopeyas.
+                    li
+                      i.fas.fa-check
+                      P Abundan las contracciones.
+                    li
+                      i.fas.fa-check
+                      P Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.
+          .tarjeta.color-tarjeta-slyder-3.h-100
+            .row.justify-content-center.mb-3.p-4
+                p.my-3  <b> Espontaneidad e imprecisión: </b> uso de un código poco o nada elaborado.ión: puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
+                .col-10
+                  img.mb-5(src='@/assets/curso/images/tema5/img_6.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                  ul.lista-ul
                   li 
                     i.fas.fa-check
                     p Uso de un artículo antes del antropónimo.
@@ -202,12 +200,12 @@
                     P Uso de apócopes.
 
 
-        .tarjeta.sp1.p-4.h-100
-          .row.justify-content-center.mb-3
-            p.my-3 <b> Expresividad: </b> predomina con enunciados de carga expresiva, afectiva y emotiva.
-            .col-10
-                img(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;").mb-3
-                ul.lista-ul
+          .tarjeta.color-tarjeta-slyder-4.h-100
+            .row.justify-content-center.mb-3.p-4
+                p.my-4 <b> Expresividad: </b> predomina con enunciados de carga expresiva, afectiva y emotiva.
+                .col-10
+                  img.my-5(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                  ul.lista-ul
                   li 
                     i.fas.fa-check
                     p Exceso de sufijos apreciativos.
@@ -224,12 +222,12 @@
                     i.fas.fa-check
                     P Uso de jerga y argot.
 
-        .tarjeta.sp1.p-3.h-100
-          .row.justify-content-center.mb-3
-            p.my-3 <b> Contacto con el emisor: </b> el apoyo de los códigos extratextuales de las funciones fáticas.
-            .col-10
-                img.mb-4(src='@/assets/curso/images/tema5/img_8.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
-                ul.lista-ul
+          .tarjeta.color-tarjeta-slyder-4.h-100
+            .row.justify-content-center.mb-3.p-4
+                p.my-4 <b> Contacto con el emisor: </b> el apoyo de los códigos extratextuales de las funciones fáticas.
+                .col-10
+                  img.my-5(src='@/assets/curso/images/tema5/img_8.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                  ul.lista-ul
                   li 
                     i.fas.fa-check
                     p Modismos, refranes, frases propias.
