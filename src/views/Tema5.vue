@@ -157,7 +157,7 @@
             .row.justify-content-center.mb-3.p-4
                 p.my-3 <b> Conversación: </b> puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas.
                 .col-10
-                  img.my-5(src='@/assets/curso/images/tema5/img_5.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                  img.my-4(src='@/assets/curso/images/tema5/img_5.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
                   ul.lista-ul
                     li 
                       i.fas.fa-check
@@ -204,7 +204,7 @@
             .row.justify-content-center.mb-3.p-4
                 p.my-4 <b> Expresividad: </b> predomina con enunciados de carga expresiva, afectiva y emotiva.
                 .col-10
-                  img.my-5(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
+                  img.my-4(src='@/assets/curso/images/tema5/img_7.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
                   ul.lista-ul
                   li 
                     i.fas.fa-check
@@ -224,7 +224,7 @@
 
           .tarjeta.color-tarjeta-slyder-4.h-100
             .row.justify-content-center.mb-3.p-4
-                p.my-4 <b> Contacto con el emisor: </b> el apoyo de los códigos extratextuales de las funciones fáticas.
+                p.my-3 <b> Contacto con el emisor: </b> el apoyo de los códigos extratextuales de las funciones fáticas.
                 .col-10
                   img.my-5(src='@/assets/curso/images/tema5/img_8.png' alt='Volver arriba' style="width:250px; display:block; margin:0 auto;")
                   ul.lista-ul
