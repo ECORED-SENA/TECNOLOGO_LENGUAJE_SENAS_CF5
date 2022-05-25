@@ -310,7 +310,7 @@
 
     h4.mb-3 ¿Qué es la lengua fuente y la lengua meta?
 
-    .row.align-items-center.justify-content-center.mb-3     
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right") 
         img.img-a(src='@/assets/curso/images/tema5/img_10.png'  alt='')
       .col-lg-6(data-aos="fade-left")
@@ -331,11 +331,11 @@
 
     p.mb-3 Para algunos expertos la gramática comprende solo la morfología y la sintaxis, mientras que para otros también los sonidos y los fonemas.
 
-    .row.align-items-center.justify-content-center.mb-3     
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right") 
         img.img-a(src='@/assets/curso/images/tema5/img_11.png'  alt='')
       .col-lg-8(data-aos="fade-left")
-        .jumbotron-2.mb-3.py-2.px-3
+        .jumbotron-2.mb-5.px-4.py-5.mt-5
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-12
               ul.lista-ul
@@ -345,7 +345,7 @@
                 li.mb-0
                   i.fas.fa-check
                   | La sintaxis estudia las reglas y principios de los sintagmas (palabras o secuencia de palabras), así como sus funciones, clasificación, combinación y orden dentro de las oraciones.
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check
                   | La fonología se ocupa de estudiar los fonemas o sonidos vocálicos y consonánticos que forman una lengua. Interpreta la manera en la que los sonidos surgen a nivel abstracto o mental. Se escriben entre diagonales para representar el sonido gráficamente, por ejemplo: /s/ + /o/ + /l/ = sol.
 
@@ -445,7 +445,7 @@
           ul.lista-ul.mb-0
             li.mb-0 
               i.fas.fa-check
-              | #[b Rasgos no manuales:] cabeza y cara (mirada, mejillas, cejas, boca, mentón). Cuerpo
+              | #[b Rasgos no manuales:]  &nbsp cabeza y cara (mirada, mejillas, cejas, boca, mentón). Cuerpo
             li.mb-0
               i.fas.fa-check
               | Coordenadas espaciales (abajo, arriba, derecha, izquierda, atrás, delante, centro, distante y mezcladas entre sí).
@@ -549,25 +549,25 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check
-                  | <b> Contexto: </b> circunstancias que rodean la situación en un espacio temporal.
+                  | <b> Contexto: </b> &nbsp circunstancias que rodean la situación en un espacio temporal.
                 li
                   i.fas.fa-check
-                  p <b> Acto comunicativo: </b> acción en el que un emisor envía un mensaje en códigos mediante un canal y es comprendido por uno o más receptores.
+                  p.p <b> Acto comunicativo: </b>  acción en el que un emisor envía un mensaje en códigos mediante un canal y es comprendido por uno o más receptores.
                 li 
                   i.fas.fa-check
-                  | <b> Relaciones interpersonales: </b> relación recíproca entre dos o más personas en los que se conoce como contexto o act
+                  | <b> Relaciones interpersonales: </b> &nbsp relación recíproca entre dos o más personas en los que se conoce como contexto o act
                 li
                   i.fas.fa-check
-                  | <b> Conocimiento: </b> representaciones abstractas que se almacena y adquiere mediante la experiencia.
+                  | <b> Conocimiento: </b> &nbsp representaciones abstractas que se almacena y adquiere mediante la experiencia.
                 li
                   i.fas.fa-check
-                  P <b> Semántica: </b> estudia el significado de las palabras.
+                  P.p <b> Semántica: </b> estudia el significado de las palabras.
                 li
                   i.fas.fa-check
-                  | <b> Semiótica: </b> disciplina que investiga la construcción y comprensión del significado de las palabras. 
+                  | <b> Semiótica: </b>  &nbsp disciplina que investiga la construcción y comprensión del significado de las palabras. 
                 li
                   i.fas.fa-check
-                  | <b> Intencionalidad: </b> voluntad explícita del emisor para influir en la opinión del receptor.
+                  | <b> Intencionalidad: </b> &nbsp voluntad explícita del emisor para influir en la opinión del receptor.
 
     p.mb-5 En el caso particular de la minoría sorda que está sujeta a convivir en una sociedad mayormente oyente y oralizada, deben estar en constante contacto tanto con su comunidad como con el resto del mundo. Así, las situaciones de contacto de las personas sordas pueden ser:
 
