@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'A partir de la Ley 324 de 1996 en su artículo segundo, el Estado Colombiano reconoce la lengua de señas como idioma propio de la Comunidad Sorda del País, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el Artículo 2 de la Ley 982 de 2005. En el marco de estos avances normativos se abrieron múltiples posibilidades, entre ellas el acceso de esta población a la educación, el cual no solo ha permitido su formación, autonomía y progreso como comunidad, sino también ha generado nuevas necesidades en torno a las herramientas y al capital humano que le acompaña en su desarrollo integral en los diferentes entornos de vida.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_1.svg'),
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal_2.png'),
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal_4.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {

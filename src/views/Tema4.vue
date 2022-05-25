@@ -72,11 +72,11 @@
                   thead
                     tr
                       th.py-3.mb-0
-                        h4 Enfoque
+                        h4.font Enfoque
                       th.py-3.mb-0
-                        h4 Variedades de modulación
+                        h4.font Variedades de modulación
                       th.py-3.mb-0 
-                        h4 Ejemplo
+                        h4.font Ejemplo
                   tbody
                     tr
                       td
@@ -132,11 +132,11 @@
                   thead
                     tr
                       th.py-3.mb-0
-                        h4 Enfoque
+                        h4.font Enfoque
                       th.py-3.mb-0
-                        h4 Variedades de modulación
+                        h4.font Variedades de modulación
                       th.py-3.mb-0
-                        h4 Ejemplo
+                        h4.font Ejemplo
                   tbody
                     tr
                       td
@@ -195,11 +195,11 @@
                   thead
                     tr
                       th.py-3.mb-0
-                        h4 Enfoque
+                        h4.font Enfoque
                       th.py-3.mb-0
-                        h4 Variedades de modulación
+                        h4.font Variedades de modulación
                       th.py-3.mb-0
-                        h4 Ejemplo
+                        h4.font Ejemplo
                   tbody
                     tr
                       td
@@ -236,11 +236,11 @@
                   thead
                     tr
                       th.py-3.mb-0
-                        h4 Enfoque
+                        h4.font Enfoque
                       th.py-3.mb-0
-                        h4 Variedades de modulación
+                        h4.font Variedades de modulación
                       th.py-3.mb-0
-                        h4 Ejemplo
+                        h4.font Ejemplo
                   tbody
                     tr
                       td
@@ -286,11 +286,11 @@
                   thead
                     tr
                       th.py-3.mb-0
-                        h4 Enfoque
+                        h4.font Enfoque
                       th.py-3.mb-0
-                        h4 Variedades de modulación
+                        h4.font Variedades de modulación
                       th.py-3.mb-0
-                        h4 Ejemplo
+                        h4.font Ejemplo
                   tbody
                     tr
                       td
@@ -341,11 +341,11 @@
                   thead
                     tr
                       th.py-3.mb-0
-                        h4 Enfoque
+                        h4.font Enfoque
                       th.py-3.mb-0
-                        h4 Variedades de modulación
+                        h4.font Variedades de modulación
                       th.py-3.mb-0
-                        h4 Ejemplo
+                        h4.font Ejemplo
                   tbody
                     tr
                       td
@@ -394,9 +394,9 @@
                 table
                   thead
                     tr
-                      th Enfoque
-                      th Variedades de modulación
-                      th Ejemplo
+                      th.font Enfoque
+                      th.font Variedades de modulación
+                      th.font Ejemplo
                   tbody
                     tr
                       td

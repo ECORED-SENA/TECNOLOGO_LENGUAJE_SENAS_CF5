@@ -125,14 +125,14 @@
     p.mb-5 Se entienden como las diferentes tipologías o enfoques que se le pueden aplicar a un proceso de traducción de un texto. Entre estos están: 
 
     .row.align-items-center.justify-content-center.p-4(data-aos="fade-up")
-      .col-lg-4.col-auto.mb-3.mb-lg-0
+      .col-lg-4.col-auto.mb-3.mb-lg-0.mb-5
         .tarjeta.p-4.tranform.p-4
           .row.justify-content-center
             .col-5
               img(src='@/assets/curso/images/tema2/ico_1.svg' alt='', style="width:100px; display:block; margin:-4rem 0 ;").mb-2
           h4.text-center.mt-5 La traducción palabra por palabra.
           p.text-center  Consiste en conservar la estructura de la frase, traducir las palabras una a una extrayendo su significado más literal, aunque este salga de contexto. Aquí, las expresiones culturales se traducen literalmente. Este proceso se vuelve ventajoso para entender cómo aprender a traducir un texto complejo. 
-      .col-lg-4.col-auto.mb-3.mb-lg-0
+      .col-lg-4.col-auto.mb-3.mb-lg-0.mb-5
         .tarjeta.tranform.p-4
           .row.justify-content-center
             .col-5

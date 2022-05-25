@@ -11,7 +11,7 @@
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
+          router-link.boton.boton-1(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
 
@@ -47,19 +47,21 @@ export default {
   z-index: 2
   height: 100% !important
   width: 10%
+
 .banner-principal__info
   padding-left: 14px  !important
   z-index: 3
   margin-top: -20px !important
   @media (max-width: 992px)
-    padding: 80px
-    margin-left: 120px
+    padding: 180px
+    margin-left: 250px
 
 
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
+    margin-left: -70px
     @media (max-width: 992px)
       margin-top: 30px
 
@@ -114,9 +116,11 @@ export default {
   &__img
     animation: scale 5s ease-in-out infinite alternate
     width: 25%
+    margin-left: 100px
+    margin-bottom: -10px
+    margin-right: -70px
 
-
-    @if $banner-principal-img-y == 'arriba'
+    @if $banner-principal-img-y == 'abajo'
       align-self: flex-start
       padding-bottom: 1.5rem
       @media (min-width: $bp-min-sm)
@@ -167,7 +171,7 @@ export default {
     position: absolute
     width: 400px
     top: 9rem
-    left: 58%
+    left: 55%
     z-index: 0
     @keyframes giro
   &_6

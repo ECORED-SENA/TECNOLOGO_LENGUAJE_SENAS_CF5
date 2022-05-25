@@ -314,14 +314,14 @@
       .col-lg-4(data-aos="fade-right") 
         img.img-a(src='@/assets/curso/images/tema5/img_10.png'  alt='')
       .col-lg-6(data-aos="fade-left")
-        .jumbotron-2.mb-3.py-2.px-4
-          ul.lista-ul
+        .jumbotron-2.mb-3.py-1.px-4
+          ul.lista-ul.p-2.mt-2
             li 
               i.fas.fa-check
-              | La lengua fuente hace referencia a la lengua de partida, el objeto de la traducción o interpretación. También llamada de origen o de salida.
+              p La lengua fuente hace referencia a la lengua de partida, el objeto de la traducción o interpretación. También llamada de origen o de salida.
             li
               i.fas.fa-check
-              | La lengua meta es aquella como resultado de la traducción o interpretación, llamada también lengua traducida (traducción) o interpretada (interpretación)
+              p La lengua meta es aquella como resultado de la traducción o interpretación, llamada también lengua traducida (traducción) o interpretada (interpretación)
                
     p.mb-3 Para este componente se hará referencia a las dos lenguas que corresponden a este programa: La lengua de señas colombiana (LSC) y el español (escrito o hablado), siendo cualquiera de las dos la lengua fuente o la lengua meta. Por ello, se analizarán los factores gramaticales, pragmáticos y semánticos de las dos lenguas.
 
@@ -397,11 +397,12 @@
           .tarjeta.back-tab.px-5.py-4(titulo="La postura de la mano:")
             
             h4 La postura de la mano: cómo funciona cada dedo. 
-            .row.px-5.py-2.justify-content-center.aling-items-center
+            .row.px-2.py-2.justify-content-center
               .col-lg-2.mb-3
-                img(src="@/assets/curso/images/tema5/ico_5.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                img.mx-5(src="@/assets/curso/images/tema5/ico_5.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
               .col-lg-10
                 p.mb-0 <b> Rasgos articulatorios:</b> Hace referencia a las partes móviles, ubicación y orientación. 
+                  
                 p <b> Matriz articulatoria: </b> Configuración manual, ubicación y orientación del articulador.
                 
           .tarjeta.back-tab.px-5.py-4(titulo="La actividad de la mano")
@@ -438,9 +439,9 @@
 
     .row.align-items-stretch.justify-content-center.mb-5(data-aos="zoom-in-down")    
       .col-lg-4.mb-3
-        img.img-a(src='@/assets/curso/images/tema5/img_15.png')
+        img.img-a.mx-5(src='@/assets/curso/images/tema5/img_15.png'  alt='', style="width:340px; display:block; margin:auto 0 ;")
       .col-lg-8
-        .jumbotron-3.mb-3.px-4.py-5
+        .jumbotron-3.mb-5.px-4.py-5
           ul.lista-ul.mb-0
             li.mb-0 
               i.fas.fa-check
@@ -548,25 +549,25 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check
-                  p <b> Contexto: </b> circunstancias que rodean la situación en un espacio temporal.
+                  | <b> Contexto: </b> circunstancias que rodean la situación en un espacio temporal.
                 li
                   i.fas.fa-check
                   p <b> Acto comunicativo: </b> acción en el que un emisor envía un mensaje en códigos mediante un canal y es comprendido por uno o más receptores.
                 li 
                   i.fas.fa-check
-                  p <b> Relaciones interpersonales: </b> relación recíproca entre dos o más personas en los que se conoce como contexto o act
+                  | <b> Relaciones interpersonales: </b> relación recíproca entre dos o más personas en los que se conoce como contexto o act
                 li
                   i.fas.fa-check
-                  P <b> Conocimiento: </b> representaciones abstractas que se almacena y adquiere mediante la experiencia.
+                  | <b> Conocimiento: </b> representaciones abstractas que se almacena y adquiere mediante la experiencia.
                 li
                   i.fas.fa-check
                   P <b> Semántica: </b> estudia el significado de las palabras.
                 li
                   i.fas.fa-check
-                  P <b> Semiótica: </b> disciplina que investiga la construcción y comprensión del significado de las palabras. 
+                  | <b> Semiótica: </b> disciplina que investiga la construcción y comprensión del significado de las palabras. 
                 li
                   i.fas.fa-check
-                  P <b> Intencionalidad: </b> voluntad explícita del emisor para influir en la opinión del receptor.
+                  | <b> Intencionalidad: </b> voluntad explícita del emisor para influir en la opinión del receptor.
 
     p.mb-5 En el caso particular de la minoría sorda que está sujeta a convivir en una sociedad mayormente oyente y oralizada, deben estar en constante contacto tanto con su comunidad como con el resto del mundo. Así, las situaciones de contacto de las personas sordas pueden ser:
 
