@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Fundamentos lingüísticos y proceso de traducción',
     descripcionCurso:
-      'A partir de la Ley 324 de 1996 en su artículo segundo, el Estado Colombiano reconoce la lengua de señas como idioma propio de la Comunidad Sorda del País, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el Artículo 2 de la Ley 982 de 2005. En el marco de estos avances normativos se abrieron múltiples posibilidades, entre ellas el acceso de esta población a la educación, el cual no solo ha permitido su formación, autonomía y progreso como comunidad, sino también ha generado nuevas necesidades en torno a las herramientas y al capital humano que le acompaña en su desarrollo integral en los diferentes entornos de vida.',
+      'A partir de la Ley 324 de 1996 en su artículo segundo, el Estado Colombiano reconoce la lengua de señas como idioma propio de la comunidad sorda del país, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el Artículo 2 de la Ley 982 de 2005. En el marco de estos avances normativos se abrieron múltiples posibilidades, entre ellas el acceso de esta población a la educación, el cual no solo ha permitido su formación, autonomía y progreso como comunidad, sino también ha generado nuevas necesidades en torno a las herramientas y al capital humano que le acompaña en su desarrollo integral en los diferentes entornos de vida.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_1.svg'),
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal_4.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
@@ -50,6 +50,12 @@ export default {
             numero: '1.4',
             titulo: 'Análisis del discurso',
             hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Tipología discursiva',
+            hash: 't_1_5',
           },
         ],
       },
@@ -103,7 +109,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Equivalencia entre lenguas en el proceso de traducción',
+            titulo: 'Equivalencia entre lenguas',
             hash: 't_3_2',
           },
         ],
@@ -112,7 +118,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Técnicas de traducción y categorización análisis',
+        titulo: 'Técnicas de traducción y categorización',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -170,7 +176,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.5',
-            titulo: 'El uso coloquial y técnico de las lenguas',
+            titulo: 'Uso coloquial y técnico de las lenguas',
             hash: 't_5_5',
           },
           {
@@ -304,215 +310,215 @@ export default {
     {
       termino: 'Afijo',
       significado:
-        'Partícula lingüística que se une a la palabra o raíz de la palabra para formar otra, creando una nueva con significado diferente. Si se fija adelante se le llama prefijo, pero si se fija atrás de la palabra se le llama sufijo.',
+        'partícula lingüística que se une a la palabra o raíz de la palabra para formar otra, creando una nueva con significado diferente. Si se fija adelante se le llama prefijo, pero si se fija atrás de la palabra se le llama sufijo.',
     },
     {
       termino: 'Anafórico',
       significado:
-        'Cuando el sentido de un término gramatical o léxico depende de otro término ya mencionado.',
+        'cuando el sentido de un término gramatical o léxico depende de otro término ya mencionado.',
     },
     {
       termino: 'Analogía',
       significado:
-        'Procedimiento para crear o transformar palabras o expresiones nuevas.',
+        'procedimiento para crear o transformar palabras o expresiones nuevas.',
     },
     {
       termino: 'Antropónimo',
       significado:
-        'Sustantivo propio que designa a un ser humano. Nombres propios de personas.',
+        'sustantivo propio que designa a un ser humano. Nombres propios de personas.',
     },
     {
       termino: 'Apócope',
       significado:
-        'Forma abreviada de una palabra, en la que se quitan letras o sílabas. ',
+        'forma abreviada de una palabra, en la que se quitan letras o sílabas. ',
     },
     {
       termino: 'Bilingüe',
-      significado: 'Persona capaz de expresarse perfectamente en dos lenguas.',
+      significado: 'persona capaz de expresarse perfectamente en dos lenguas.',
     },
     {
       termino: 'Catafórico',
       significado:
-        'Cuando el sentido de un término depende de otro que se encuentra mencionado posteriormente (vínculo prospectivo).',
+        'cuando el sentido de un término depende de otro que se encuentra mencionado posteriormente (vínculo prospectivo).',
     },
     {
       termino: 'Cohipónimo',
-      significado: 'Palabras que nombran objetos de un mismo campo semántico.',
+      significado: 'palabras que nombran objetos de un mismo campo semántico.',
     },
     {
       termino: 'Deíctico',
       significado:
-        'Cuando muestra, hace referencia o señala algo ya dicho o que se va a decir dentro o fuera del texto.',
+        'cuando muestra, hace referencia o señala algo ya dicho o que se va a decir dentro o fuera del texto.',
     },
     {
       termino: 'Deixis',
       significado:
-        'Señalar o mostrar una persona, una cosa, un lugar o un tiempo exteriores al discurso. Solo puede interpretarse si se presta atención al contexto. “Éstos”, “allá”, “mío” y “yo” son algunos elementos que forman parte de la deixis.',
+        'señalar o mostrar una persona, una cosa, un lugar o un tiempo exteriores al discurso. Solo puede interpretarse si se presta atención al contexto. “Éstos”, “allá”, “mío” y “yo” son algunos elementos que forman parte de la deixis.',
     },
     {
       termino: 'Diafasía',
       significado:
-        'Variable que determina la situación en la cual el hablante se encuentra (contexto, interlocutores, circunstancias o finalidad de la comunicación), según el tipo de relación entre los interlocutores y que selecciona el registro lingüístico, sea formal o informal.',
+        'variable que determina la situación en la cual el hablante se encuentra (contexto, interlocutores, circunstancias o finalidad de la comunicación), según el tipo de relación entre los interlocutores y que selecciona el registro lingüístico, sea formal o informal.',
     },
     {
       termino: 'Diasistema',
-      significado: 'La coexistencia de sistemas en toda la lengua.',
+      significado: 'la coexistencia de sistemas en toda la lengua.',
     },
     {
       termino: 'Diastratía',
-      significado: 'Cambios de una lengua por razones socioculturales.',
+      significado: 'cambios de una lengua por razones socioculturales.',
     },
     {
       termino: 'Diatopía',
       significado:
-        'Cambios de una lengua por razones geográficas o espaciales.',
+        'cambios de una lengua por razones geográficas o espaciales.',
     },
     {
       termino: 'Elipsis',
       significado:
-        'Eliminación de un elemento discursivo cuyo contenido puede reconstruirse gracias a la información del contexto. Se refleja en el texto con puntos suspensivos. ',
+        'eliminación de un elemento discursivo cuyo contenido puede reconstruirse gracias a la información del contexto. Se refleja en el texto con puntos suspensivos. ',
     },
     {
       termino: 'Étnicocultural',
       significado:
-        'Comunidad determinada con ancestros, tradiciones, rituales e historia en común (etnia), y con una lengua, gastronomía, música, danza y religión compartida (cultura).',
+        'comunidad determinada con ancestros, tradiciones, rituales e historia en común (etnia), y con una lengua, gastronomía, música, danza y religión compartida (cultura).',
     },
     {
       termino: 'Eufemismos',
       significado:
-        'Términos que se usan para reemplazar algo que queremos expresar pero que puede resultar un tanto duro o malsonante a los oídos de las demás personas. ',
+        'términos que se usan para reemplazar algo que queremos expresar pero que puede resultar un tanto duro o malsonante a los oídos de las demás personas. ',
     },
     {
       termino: 'Exofórico',
       significado:
-        'Cuando el significado referencial no se encuentra en el interior del texto verbal y se busca fuera del texto.',
+        'cuando el significado referencial no se encuentra en el interior del texto verbal y se busca fuera del texto.',
     },
     {
       termino: 'Fático',
       significado:
-        '“Dicho de una expresión lingüística, de un texto, etc.: Que pretenden asegurar o mantener la comunicación entre el emisor y el receptor”. Diccionario de la RAE (Real Academia Española).',
+        '“dicho de una expresión lingüística, de un texto, etc.: Que pretenden asegurar o mantener la comunicación entre el emisor y el receptor”. Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Filología',
       significado:
-        '“Lingüística. Ciencia que estudia las culturas tal como se manifiestan en su lengua”. Diccionario de la RAE (Real Academia Española).',
+        '“lingüística. Ciencia que estudia las culturas tal como se manifiestan en su lengua”. Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Fonética',
       significado:
-        'Estudia los sonidos físicos de las lenguas, las diferencias articulatorias perceptibles.',
+        'estudia los sonidos físicos de las lenguas, las diferencias articulatorias perceptibles.',
     },
     {
       termino: 'Fonología',
       significado:
-        'Estudia el modo como los elementos fónicos, sonidos vocálicos y consonánticos, funcionan.',
+        'estudia el modo como los elementos fónicos, sonidos vocálicos y consonánticos, funcionan.',
     },
     {
       termino: 'Géneros discursivos',
       significado:
-        'Son una serie de enunciados estables del lenguaje que se caracterizan por tener una serie de similitudes. Se desarrolla en cada actividad humana y es propia del lenguaje.',
+        'son una serie de enunciados estables del lenguaje que se caracterizan por tener una serie de similitudes. Se desarrolla en cada actividad humana y es propia del lenguaje.',
     },
     {
       termino: 'Glotología',
       significado:
-        '“Lingüística”. Diccionario de la RAE (Real Academia Española).',
+        '“lingüística”. Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Glosología ',
       significado:
-        '“Lingüística. Ver glotología”.  Diccionario de la RAE (Real Academia Española).',
+        '“lingüística. Ver glotología”.  Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Gramática',
       significado:
-        'Estudia la estructura de las palabras y las reglas para hablar correctamente.',
+        'estudia la estructura de las palabras y las reglas para hablar correctamente.',
     },
     {
       termino: 'Hiperonimia',
       significado:
-        'Relaciona de lo general a lo particular. Son palabras cuyo significado abarca al de otras palabras.',
+        'relaciona de lo general a lo particular. Son palabras cuyo significado abarca al de otras palabras.',
     },
     {
       termino: 'Hiponimia',
       significado:
-        'Cuando se utilizan términos que establecen inclusión entre los conceptos para reforzarlo. Los hipónimos están contenidos dentro de los hiperónimos. Palabras cuyo significado es específico.',
+        'cuando se utilizan términos que establecen inclusión entre los conceptos para reforzarlo. Los hipónimos están contenidos dentro de los hiperónimos. Palabras cuyo significado es específico.',
     },
     {
       termino: 'Idiomatismo',
       significado:
-        'Rasgo lingüístico peculiar y característico de un idioma determinado. Palabra o expresión cuya traducción literal en otro idioma no tendría sentido lógico.',
+        'rasgo lingüístico peculiar y característico de un idioma determinado. Palabra o expresión cuya traducción literal en otro idioma no tendría sentido lógico.',
     },
     {
       termino: 'Interjecciones',
       significado:
-        'Palabras que expresan sentimientos muy vivos, de dolor, de alegría, de tristeza, entre otros.',
+        'palabras que expresan sentimientos muy vivos, de dolor, de alegría, de tristeza, entre otros.',
     },
     {
       termino: 'Isoglosas',
       significado:
-        '“Línea imaginaria que en un mapa representa los límites de un mismo fenómeno lingüístico con los puntos intermedios entre ambos”. Diccionario de la RAE (Real Academia Española).',
+        '“línea imaginaria que en un mapa representa los límites de un mismo fenómeno lingüístico con los puntos intermedios entre ambos”. Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Lexema',
       significado:
-        'Raíz de una palabra con valor léxico, es decir, con significado original o primigenio y denota la familia de la que proviene.',
+        'raíz de una palabra con valor léxico, es decir, con significado original o primigenio y denota la familia de la que proviene.',
     },
     {
       termino: 'Lingüística',
       significado:
-        '“Perteneciente o relativo al lenguaje. Ciencia del lenguaje”. Diccionario de la RAE (Real Academia Española).',
+        '“perteneciente o relativo al lenguaje. Ciencia del lenguaje”. Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Metáfrase',
       significado:
-        'Nombre o sustantivo cuyo significado determina la realidad.',
+        'nombre o sustantivo cuyo significado determina la realidad.',
     },
     {
       termino: 'Monema',
       significado:
-        'Las partes más pequeñas de las palabras que contienen significado.',
+        'las partes más pequeñas de las palabras que contienen significado.',
     },
     {
       termino: 'Monolingüe',
-      significado: 'Hecho sociolingüístico asociado a emplear una sola lengua.',
+      significado: 'hecho sociolingüístico asociado a emplear una sola lengua.',
     },
     {
       termino: 'Monosémico',
-      significado: 'De significado único.',
+      significado: 'de significado único.',
     },
     {
       termino: 'Morfema',
       significado:
-        'Unidad mínima de una palabra capaz de expresar un significado gramatical. El morfema se une al lexema de la palabra para modificarlo y completar su significado.',
+        'unidad mínima de una palabra capaz de expresar un significado gramatical. El morfema se une al lexema de la palabra para modificarlo y completar su significado.',
     },
     {
       termino: 'Morfología',
-      significado: 'Estudia la forma de las palabras. ',
+      significado: 'estudia la forma de las palabras. ',
     },
     {
       termino: 'Onomatopeya',
       significado:
-        'La representación escrita de un sonido natural. Por ejemplo, las voces de los animales.',
+        'la representación escrita de un sonido natural. Por ejemplo, las voces de los animales.',
     },
     {
       termino: 'Ortografía',
       significado:
-        'Es el conjunto de normas que regulan la escritura, las letras y los signos de puntuación. ',
+        'es el conjunto de normas que regulan la escritura, las letras y los signos de puntuación. ',
     },
     {
       termino: 'Panhispánico',
       significado:
-        '“Perteneciente o relativo a todos los pueblos que hablan la lengua española”. Diccionario de la RAE (Real Academia Española).',
+        '“perteneciente o relativo a todos los pueblos que hablan la lengua española”. Diccionario de la RAE (Real Academia Española).',
     },
     {
       termino: 'Pragmática',
       significado:
-        '“Parte de la lingüística que estudia el lenguaje en su relación con los usuarios y las circunstancias de la comunicación. Es relativo a la práctica o la realización de las acciones y no la teoría..',
+        '“parte de la lingüística que estudia el lenguaje en su relación con los usuarios y las circunstancias de la comunicación. Es relativo a la práctica o la realización de las acciones y no la teoría..',
     },
     {
       termino: 'Pronombre',
       significado:
-        'Palabras que se emplean para referirse a personas, animales o cosas sin nombrarlas. Pueden ser demostrativos, personales, posesivos, indefinidos y numerales.',
+        'palabras que se emplean para referirse a personas, animales o cosas sin nombrarlas. Pueden ser demostrativos, personales, posesivos, indefinidos y numerales.',
     },
     {
       termino: 'Proposición',
@@ -522,7 +528,7 @@ export default {
     {
       termino: 'Prosodia',
       significado:
-        'Estudia los elementos de la expresión oral, como el acento, el tono, la entonación, el ritmo.',
+        'estudia los elementos de la expresión oral, como el acento, el tono, la entonación, el ritmo.',
     },
     {
       termino: 'Quiasma',
@@ -531,45 +537,45 @@ export default {
     {
       termino: 'Semántica',
       significado:
-        '“Estudia el significado de las expresiones de un símbolo o palabra.',
+        '“estudia el significado de las expresiones de un símbolo o palabra.',
     },
     {
       termino: 'Sinonimia',
       significado:
-        'Cuando se evita repetir un término, reemplazándolo por un sinónimo simétrico.',
+        'cuando se evita repetir un término, reemplazándolo por un sinónimo simétrico.',
     },
     {
       termino: 'Sintagma',
       significado:
-        'Palabra o grupo de palabras en el que hay un núcleo, que puede ser un pronombre o un nombre.',
+        'palabra o grupo de palabras en el que hay un núcleo, que puede ser un pronombre o un nombre.',
     },
     {
       termino: 'Sintaxis',
-      significado: 'Estudia el orden de las palabras en una oración.',
+      significado: 'estudia el orden de las palabras en una oración.',
     },
     {
       termino: 'Sociolingüística',
       significado:
-        '“Es una disciplina que abarca una gama amplísima de intereses relacionados con el estudio de una o más lenguas en su entorno social”. Silva-Corvalán (2001).',
+        '“es una disciplina que abarca una gama amplísima de intereses relacionados con el estudio de una o más lenguas en su entorno social”. Silva-Corvalán (2001).',
     },
     {
       termino: 'Sufijo',
       significado:
-        'Morfemas (dentro de los llamados afijos), que se escriben al final de una palabra y le modifican su significado.',
+        'morfemas (dentro de los llamados afijos), que se escriben al final de una palabra y le modifican su significado.',
     },
     {
       termino: 'Sustitución',
-      significado: 'Cuando se reemplaza una palabra por otra.',
+      significado: 'cuando se reemplaza una palabra por otra.',
     },
     {
       termino: 'Unívoco',
       significado:
-        'Adjetivo que tiene un solo nombre, significado o interpretación.',
+        'adjetivo que tiene un solo nombre, significado o interpretación.',
     },
     {
       termino: 'Vocativo',
       significado:
-        'Palabras con las que el emisor busca llamar la atención, calificar o nombrar a la persona a la cual se dirige.',
+        'palabras con las que el emisor busca llamar la atención, calificar o nombrar a la persona a la cual se dirige.',
     },
   ],
   complementario: [

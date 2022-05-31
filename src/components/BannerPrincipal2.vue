@@ -12,7 +12,7 @@
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton.boton-1(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Ver más
+            span.me-1 Iniciar
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
@@ -158,13 +158,13 @@ export default {
     position: absolute
     width: 50px
     bottom: 50px
-    left: 62%
+    left: 55%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 30px
     top: 5%
-    left: 62%
+    left: 58%
     z-index: 99
   &_5
     animation: giro .9s ease-in-out infinite alternate

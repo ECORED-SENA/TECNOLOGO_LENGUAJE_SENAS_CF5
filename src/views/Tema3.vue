@@ -25,14 +25,14 @@
     Separador
 
     #t_3_2.titulo-segundo
-      .h2 3.2 Equivalencia entre lenguas en el proceso de traducción 
+      .h2 3.2 Equivalencia entre lenguas
     
     p.mb-3 En la década de los 60´s apareció un concepto en el mundo de la traductología, de manera reiterativa: la equivalencia; pero solo hasta la década de los 80´s deja de ser un término ambiguo y se vuelve más homogéneo. 
 
 
     .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-6.mb-5.mb-lg-0(data-aos="fade-right")
-        p.mb-3 En su manual On linguistic Aspects of Translation, Jakobson (1959), el primer autor que habló de “equivalence” desde el punto de vista lingüístico, afirmó que la equivalencia absoluta no existe y que un mensaje puede ser expresado en cualquier lengua. Así, la misión del traductor es la de trasladar un contenido de la lengua original a la lengua meta, con el fin de que se esté garantizada la equivalencia, no de sustituir unidades sino mensajes completos. 
+        p.mb-3 En su manual <i> On linguistic Aspects of Translation, Jakobson </i> (1959), el primer autor que habló de “equivalence” desde el punto de vista lingüístico, afirmó que la equivalencia absoluta no existe y que un mensaje puede ser expresado en cualquier lengua. Así, la misión del traductor es la de trasladar un contenido de la lengua original a la lengua meta, con el fin de que se esté garantizada la equivalencia, no de sustituir unidades sino mensajes completos. 
 
         p.mb-0 La equivalencia entre lenguas en el proceso de traducción hace referencia a que una unidad traducida alcanza el nivel de correspondencia con respecto a la lengua origen cuando lo traducido presenta el mismo valor que la unidad original. Uno de los precursores de la traductología, Eugene Nida (1964), desarrolló un enfoque comunicativo en la traducción diciendo que el traductor se debate entre dos modos o estilos de traducir: 
 
@@ -57,7 +57,7 @@
                   | Se orienta a conservar la forma lingüística de la lengua origen.
                 li 
                   i.fas.fa-check
-                  | Imitar la sucesión de las palabras en la sintaxis (lengua de meta).
+                  | Imita la sucesión de las palabras en la sintaxis (lengua de meta).
                 li 
                   i.fas.fa-check
                   | Se puede hablar de una traducción literal. 
@@ -111,19 +111,20 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check
-                  | La relación entre las dos culturas: cuál es dominante, hay paridad o similitud, lejanía, cercanía, equivalencias, términos inexistentes, gestos, conceptos, comportamientos, injerencias (cuando la cultura toma prestados elementos de otra).
+                  | Toma posición ante las ideas de la lengua origen.
+
                 li
                   i.fas.fa-check
-                  | Características de la lengua origen que pueden condicionar el culturema.
+                  | Adopta una postura crítica.
                 li 
                   i.fas.fa-check
                   | Carácter del culturema (grado de universalidad).
                 li 
                   i.fas.fa-check
-                  | Características del receptor.
+                  | Imprime una huella con su presencia.
                 li 
                   i.fas.fa-check
-                  | Objetivo de la traducción o interpretación.
+                  |	Alterando la estructura del discurso. 
       .col-lg-3(data-aos="fade-left")  
         img(src='@/assets/curso/images/tema3/img_6.png'  alt='', style="width:270px; display:block; margin:auto 0 ;")
 
@@ -156,7 +157,7 @@
           .tarjeta.color-tarjeta-slyder-2
             .p-4
               h4.text-center Categoría de organizaciones o instituciones: 
-              p.text-center bellas artes (música, pintura, arquitectura, baile, artes plásticas), religión (edificios religiosos, fiestas, rituales, ceremonias, reuniones, oraciones, música religiosa, vocabulario propio de la organización) y medios de comunicación (televisión, prensa, internet y artes gráficas).
+              p.text-center Bellas artes (música, pintura, arquitectura, baile, artes plásticas), religión (edificios religiosos, fiestas, rituales, ceremonias, reuniones, oraciones, música religiosa, vocabulario propio de la organización) y medios de comunicación (televisión, prensa, internet y artes gráficas).
 
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema3/ico_4.svg' alt='', style="width:130px; display:block; margin:auto 0 ;")

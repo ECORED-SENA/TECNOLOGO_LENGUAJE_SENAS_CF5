@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1  Técnicas de traducción y categorización análisis
+      h1  Técnicas de traducción y categorización
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-lg-12(data-aos="fade-down")
@@ -15,9 +15,21 @@
       .h2 4.1 Análisis del discurso
     
    
-    p.mb-3 Es claro entonces, que en la traducción de textos no basta con solo sustituir palabra por palabra, pues con frecuencia ocurre que no hay términos que abarquen el significado exacto de un idioma a otro. Y hay que tener en cuenta que en cada idioma se utilizan figuras retóricas que, al traducirlas literalmente, se enviaría un mensaje completamente errado al original y en ocasiones ofensivo. Así que, para que se logre una traducción fiel al mensaje original, se tendrán en cuenta aspectos fundamentales como: las asimilaciones, extensiones, adecuaciones, fosilizaciones, figuras retóricas.
+    p.mb-3 En la lingüística, analizar el discurso es una tendencia y una necesidad para obtener una concepción activa del lenguaje, por lo que dejó de tener solo importancia marginal desde hace 20 años. Así, leer el discurso se ha considerado como leer la realidad social. Existen muchas propuestas para hacer un análisis del discurso, por lo que en ocasiones puede resultar en un constante dolor de cabeza para muchos, sin embargo, previo a dicho análisis discursivo, es fundamental tener claridad teórica sobre: 
 
-    p.mb-5 Recordando lo expresado anteriormente, que la Lengua de Señas Colombiana (LSC) es una lengua ágrafa y que por lo tanto carece de símbolos gráficos, excepto los sistemas antes mencionados, podríamos hablar de traducir textos de una lengua hablada a la Lengua de Señas Colombiana (LSC). En este caso es necesario tomar en cuenta factores culturales, expresiones propias de la LSC., como la expansiones y reducciones, que ayudan a dar una mejor comprensión del texto (esto mismo se puede aplicar al proceso de interpretación).
+    .row.justify-content-center.align-items-center.p-2.mb-3
+      .col-lg-12
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | ¿Qué se busca en el discurso?
+          li
+            i.fas.fa-check
+            | ¿Cuál es el contenido del discurso? (estructura textual, estrategias lingüísticas, el uso del silencio en la comunicación, entre otros).
+          li 
+            i.fas.fa-check
+            | ¿Cuáles son las ideas primarias y secundarias?
+
 
     .row.justify-content-center
       .col-lg-10.d-none.d-lg-block
@@ -52,7 +64,7 @@
           .row.justify-content-center.align-items-center.p-2
             .col-lg-10
               p.mb-3 Existen múltiples formas de toma de apuntes como apoyo al proceso de traducción e interpretación. A continuación, se enuncian algunas que pueden ser de mucha utilidad:
-              a.anexo.mb-4(:href="obtenerLink('/downloads/ANEXO 2 Introduccion_a_la_linguistica.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Formas_de_toma_de_apuntes.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -61,6 +73,7 @@
 
     #t_4_3.titulo-segundo
       .h2 4.3 Categorización de las técnicas de traducción
+      p.mb-3 Jean-Paul Vinay y Jean Darbelnet (1958) son pioneros en los estudios de la taxonomía clásica de los procedimientos de traducción. Su trabajo da pie para enunciar algunas de las técnicas de traducción que se continúan trabajando hasta el día de hoy:
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA
         .row.justify-content-center.align-items-center.p-5
@@ -80,7 +93,7 @@
                   tbody
                     tr
                       td
-                        ul.lista-ul
+                        ul.lista-ul.margin-list
                           li 
                             i.fas.fa-check
                             | Cambio en el punto de vista.
@@ -104,6 +117,9 @@
                           li 
                             i.fas.fa-check
                             | Inversión de términos o de punto de vista.
+                          li 
+                            i.fas.fa-check
+                            | Lo contrario negativado.
                           li
                             i.fas.fa-check
                             | Cambio de comparación o de símbolo.
@@ -115,13 +131,13 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | Don’t get so excited - Tranquilízate.
+                            | <i> Don’t get so excited </i>- Tranquilízate.
                           li
                             i.fas.fa-check
-                            | Blind fliying - Pilotaje sin visibilidad (volar a ciegas).
+                            | <i> Blind  flying </i> - Pilotaje sin visibilidad (volar a ciegas).
                           li 
                             i.fas.fa-check
-                            | Paceful and still - Pacífico y sereno.
+                            | <i> Peaceful and still </i> - Pacífico y sereno.
 
         .row.justify-content-center.align-items-center.p-5
           h3 Transposición
@@ -176,13 +192,13 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | I won’t be late - No tardaré.
+                            | <i> I won’t be late </i>- No tardaré.
                           li
                             i.fas.fa-check
-                            | He learns quickly - Es veloz para aprender.
+                            | <i> He learns quickly </i> - Es veloz para aprender.
                           li 
                             i.fas.fa-check
-                            | Waiting for your letter - A la espera de su carta.
+                            | <i> Waiting for your letter </i> - A la espera de su carta.
 
 
 
@@ -210,21 +226,17 @@
                           li
                             i.fas.fa-check
                             | Correspondencia precisa de estructura y significación sin alterar la lengua original.
-                        
-                      td
-               
-          
                       td 
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | I am reading a book - Yo estoy leyendo un libro.
+                            | <i> I am reading a book </i> - Yo estoy leyendo un libro.
                           li
                             i.fas.fa-check
-                            | As a whole – Como un todo (En conjunto).
+                            | <i> As a whole </i> – Como un todo (En conjunto).
                           li
                             i.fas.fa-check
-                            | I’m late – Estoy tarde (llegué tarde).
+                            | <i> I’m late </i> – Estoy tarde (llegué tarde).
             
         
         .row.justify-content-center.align-items-center.p-5
@@ -247,7 +259,7 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | Toma prestada el sintagma de la lengua origen.
+                            | Toma prestado el headhunter de la lengua origen.
                           li
                             i.fas.fa-check
                             | Se traducen literalmente los elementos que lo componen.
@@ -268,13 +280,13 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | Handball – Balonmano
+                            | <i> Handball </i> – Balonmano
                           li
                             i.fas.fa-check
-                            | Headhunder - Cazatalentos
+                            | <i> Headhunder </i> - Cazatalentos
                           li 
                             i.fas.fa-check
-                            | Skyscraper – Rascacielos.
+                            | <i> Skyscraper  </i> – Rascacielos.
 
             
         .row.justify-content-center.align-items-center.p-5
@@ -303,7 +315,7 @@
                             | Llenar un vacío léxico cuando en la lengua meta no hay una equivalencia.
                         
                       td
-                        ul.lista-ul.mt-5
+                        ul.lista-ul
                           li 
                             i.fas.fa-check
                             | Extranjerismo.
@@ -331,10 +343,10 @@
                           li 
                             i.fas.fa-check
                             | Chip.
-          
+
         .row.justify-content-center.align-items-center.p-5
-          h3  Adaptación
-          p.mb-3 La adaptación, conocida también como traducción libre, sustitución o equivalente cultural, es una técnica de traducción en la que los elementos culturales y realidades de la lengua origen se adaptan a la cultura de la lengua meta. 
+          h3  Equivalencia
+          p.mb-3 La equivalencia o adaptación, es una técnica que utiliza diferentes recursos estructurales y estilísticos de la lengua origen, siempre y cuando transmitan el mismo mensaje. Cuando una de las lenguas utiliza un código propio o un idiomantismo, busca una correspondencia en significado entre las dos lenguas. Está ligado a los proverbios, frases idiomáticas, juegos de palabras, metáforas, juegos fónicos, variantes dialectales, entre otros.
           .col-md-10.mb-4.mb-md-0
             .tabla-a.color-acento-contenido.bac-table.mb-5 
                 table
@@ -349,46 +361,35 @@
                   tbody
                     tr
                       td
-                        ul.lista-ul
+                        ul.lista-ul.margin-list
                           li 
                             i.fas.fa-check
-                            | Resultado más familiar y comprensible.
+                            | Pertenece al plano semántico, no al léxico.
                           li
                             i.fas.fa-check
-                            | Se crea en relación con otra situación, evitando un calco cultural o un contrasentido.
+                            |	Abarca la totalidad del mensaje ligado a la situación.
                         
                       td
-                        ul.lista-ul.mt-5
-                          li 
-                            i.fas.fa-check
-                            | Inexistencia de equivalentes léxicos en la lengua de llegada. 
-                          li
-                            i.fas.fa-check
-                            | Inexistencia de un contexto similar (o equivalente) en la cultura meta. 
-                          li 
-                            i.fas.fa-check
-                            | Cambio de género al traducir (ejemplo: cuando se cambia literatura para adultos por una versión para niños).
-                          li 
-                            i.fas.fa-check
-                            | Destinatario diferente al de la lengua original.
 
                       td 
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | omar el té (en Inglaterra). - Tomar un café (en Colombia). - Tomar un vino (en Argentina).
+                            | <i> It’s raining cats and dogs  </i> - Llueve a cántaros..
                           li
                             i.fas.fa-check
-                            | Friday 13th. - martes 13 (Día de la mala suerte). Come rain or come shine. - Pase lo que pase.
+                            | <i> To pull somebody’s leg </i>- Tomar del pelo a alguien.
 
                           li 
                             i.fas.fa-check
-                            | He kissed his daughter on the mouth. - Abrazó tiernamente a su hija.
-                
+                            | <i> Haste makes waste </i> – Del afán no queda sino el cansancio.
+                          li 
+                            i.fas.fa-check
+                            | <i> There are as like as two peas </i> – Son como dos gotas de agua.
 
         .row.justify-content-center.align-items-center.p-5
-          h3  Paráfrasis
-          p.mb-3 Ampliación o explicación del significado de un término o fragmento en algún idioma. Se suele usar con textos de baja calidad o con omisiones, para dejar claro el significado confuso en el idioma fuente. Imita sin alterar y ayuda a comprender un enunciado (aclara localismos).
+          h3  Adaptación
+          p.mb-3 La adaptación, conocida también como traducción libre, sustitución o equivalente cultural, es una técnica de traducción en la que los elementos culturales y realidades de la lengua origen se adaptan a la cultura de la lengua meta. 
           .col-md-10.mb-4.mb-md-0
             .tabla-a.color-acento-contenido.bac-table.mb-5 
                 table
@@ -400,7 +401,64 @@
                   tbody
                     tr
                       td
+                        ul.lista-ul.margin-list
+                          li 
+                            i.fas.fa-check
+                            | Resultado más familiar y comprensible.
+                          li
+                            i.fas.fa-check
+                            | Se crea en relación con otra situación, evitando un calco cultural o un contrasentido.
+
+                        
+                      td
+                         ul.lista-ul
+                          li 
+                            i.fas.fa-check
+                            | Inexistencia de equivalentes léxicos en la lengua de llegada. 
+                          li
+                            i.fas.fa-check
+                            | Inexistencia de un contexto similar (o equivalente) en la cultura meta. 
+                          li 
+                            i.fas.fa-check
+                            | Cambio de género al traducir (ejemplo: cuando se cambia literatura para adultos por una versión para niños). 
+          
+                          li 
+                            i.fas.fa-check
+                            |  Destinatario diferente al de la lengua original.
+
+                        
+
+                      td 
                         ul.lista-ul
+                          li 
+                            i.fas.fa-check
+                            | Tomar el té (en Inglaterra). - Tomar un café (en Colombia). - Tomar un vino (en Argentina).
+                          li
+                            i.fas.fa-check
+                            | <i> Friday </i> 13th. - martes 13 (Día de la mala suerte). <i> Come rain or come shine. </i> - Pase lo que pase.
+
+
+                          li 
+                            i.fas.fa-check
+                            | <i> He kissed his daughter on the mouth. </i> - Abrazó tiernamente a su hija.
+          
+      
+
+        .row.justify-content-center.align-items-center.p-5
+          h3  Paráfrasis
+          p.mb-3 Ampliación o explicación del significado de un término o fragmento en algún idioma. Se suele usar con textos de baja calidad o con omisiones, para dejar claro el significado confuso en el idioma fuente. Imita sin alterar y ayuda a comprender un enunciado (aclara localismos).
+          .col-md-10.mb-4.mb-md-0
+            .tabla-a.color-acento-contenido.bac-table
+                table
+                  thead
+                    tr
+                      th.font Enfoque
+                      th.font Variedades de modulación
+                      th.font Ejemplo
+                  tbody
+                    tr
+                      td
+                        ul.lista-ul.margin-list
                           li 
                             i.fas.fa-check
                             | El traductor utiliza sus propias palabras con un vocabulario sencillo, pero cuidando las ideas de la lengua origen.
@@ -419,15 +477,15 @@
                             | El horno no está para bollos.
                           li
                             i.fas.fa-check
-                            | Debido a lo tensa que se encuentra la situación, lo mejor sería no sumar más complicaciones por el moment
+                            | Debido a lo tensa que se encuentra la situación, lo mejor sería no sumar más complicaciones por el moment.
 
                           li 
                             i.fas.fa-check
-                            | Facepalm. - Gesto de llevar la palma de la mano a la cara para sugerir irónicamente desaprobación ante algo ilógico o tonto
+                            | Facepalm - Gesto de llevar la palma de la mano a la cara para sugerir irónicamente desaprobación ante algo ilógico o tonto.
           
                           li 
                             i.fas.fa-check
-                            |  V.I.P. - Persona muy importante
+                            |  <i> V.I.P. </i> - Persona muy importante.
 
 
 

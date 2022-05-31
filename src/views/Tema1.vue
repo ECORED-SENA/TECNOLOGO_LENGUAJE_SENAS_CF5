@@ -39,42 +39,42 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            p <b>Lingüística aplicada:</b> Se centra en el estudio de los problemas sociales que tienen que ver con el lenguaje.
+            p <b>Lingüística aplicada:</b> se centra en el estudio de los problemas sociales que tienen que ver con el lenguaje.
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
                span 2
-            p <b>Lingüística o gramática comparada:</b> Estudia las relaciones entre dos o más lenguas.
+            p <b>Lingüística o gramática comparada:</b> estudia las relaciones entre dos o más lenguas.
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
               span 3
-            p <b> Lingüística computacional:</b> Aplica los métodos de la inteligencia artificial al tratamiento de cuestiones lingüísticas. Transforma el lenguaje natural a uno computacional.
+            p <b> Lingüística computacional:</b> aplica los métodos de la inteligencia artificial al tratamiento de cuestiones lingüísticas. Transforma el lenguaje natural a uno computacional.
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
               span 4
-            p <b> Lingüística evolutiva, lingüística diacrónica o gramática histórica: </b> Estudia los cambios concretos de una lengua tanto en la fonología como en la gramática desde la lingüística histórica.
+            p <b> Lingüística evolutiva, lingüística diacrónica o gramática histórica: </b> estudia los cambios concretos de una lengua tanto en la fonología como en la gramática desde la lingüística histórica.
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
               span 5
-            p <b> Lingüística contrastiva: </b>  Describe en detalle las diferencias y similitudes entre dos o más lenguas tomando en cuenta el nivel fonológico, morfológico y sintáctico.
+            p <b> Lingüística contrastiva: </b>  describe en detalle las diferencias y similitudes entre dos o más lenguas tomando en cuenta el nivel fonológico, morfológico y sintáctico.
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
               span 6
-            p <b> Lingüística textual o lingüística del texto: </b> Como su nombre lo indica, estudia el texto y está fuertemente relacionada con el análisis del discurso.
+            p <b> Lingüística textual o lingüística del texto: </b> como su nombre lo indica, estudia el texto y está fuertemente relacionada con el análisis del discurso.
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
               span 7
-            p <b> Lingüística textual: </b> Analiza de manera más amplia la lingüística textual o lingüística del texto, que es una rama de la lingüística general que estudia los textos y que surgió alrededor de 1970 en un congreso alemán en el que participaron los máximos exponentes de la lingüística como Janos Petofi, Jens Ihwe, Teun van Dijk, Hannes Rieser, Werner Kummer, entre otros; quienes trabajaban en sus ideas sobre el análisis del discurso y la pragmática. La lingüística textual deduce que el texto debe trabajar interdisciplinariamente con la sociolingüística, la pragmática, la lógica de predicados, la filosofía y la psicología cognoscitiva. Estos se han convertido en elementos valiosísimos para la comprensión de la producción y recepción de los textos. La lingüística del texto estudia todo el significado contextual, es decir, todo lo que rodea una palabra. 
+            p <b> Lingüística textual: </b> analiza de manera más amplia la lingüística textual o lingüística del texto, que es una rama de la lingüística general que estudia los textos y que surgió alrededor de 1970 en un congreso alemán en el que participaron los máximos exponentes de la lingüística como Janos Petofi, Jens Ihwe, Teun van Dijk, Hannes Rieser, Werner Kummer, entre otros; quienes trabajaban en sus ideas sobre el análisis del discurso y la pragmática. La lingüística textual deduce que el texto debe trabajar interdisciplinariamente con la sociolingüística, la pragmática, la lógica de predicados, la filosofía y la psicología cognoscitiva. Estos se han convertido en elementos valiosísimos para la comprensión de la producción y recepción de los textos. La lingüística del texto estudia todo el significado contextual, es decir, todo lo que rodea una palabra. 
           hr.mt-0
           li 
             .lista-ol--cuadro__vineta
               span 8
-            p <b> Texto: </b> La vida diaria está rodeada de textos sean orales, corporales o escritos. El término textos, procede del latín “textus” que significa: tejido, textura. Está integrado por unidades lingüísticas, llamadas oraciones, que están interrelacionadas a través de los referentes y los conectores lógicos. Todo esto quiere decir, que un texto no es una simple reunión de oraciones. Es todo un entramado de ideas o, en otras palabras, una estructura.
+            p <b> Texto: </b> la vida diaria está rodeada de textos sean orales, corporales o escritos. El término textos, procede del latín “textus” que significa: tejido, textura. Está integrado por unidades lingüísticas, llamadas oraciones, que están interrelacionadas a través de los referentes y los conectores lógicos. Todo esto quiere decir, que un texto no es una simple reunión de oraciones. Es todo un entramado de ideas o, en otras palabras, una estructura.
           hr.mt-0
 
     Separador 
@@ -153,11 +153,11 @@
       .py-4.py-md-5(titulo="Texto narrativo" :icono="require('@/assets/curso/images/tema1/ico_1.svg')")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            h4 Texto narrativo
-            p Intención comunicativa: relata o narra los hechos que le suceden a los personajes. Puede ser real o ficticio, con un lugar, estructura y tiempo concretos.
+            h4 Texto narrativo:
+            p <b> Intención comunicativa: </b> relata o narra los hechos que le suceden a los personajes. Puede ser real o ficticio, con un lugar, estructura y tiempo concretos.
             p <b> Responde a: </b> ¿Qué pasa?
             p <b> Estructura:</b> planteamiento, nudo y desenlace.
-            p <b> Ejemplos: </b> noticias, novelas, historias, mitos, fábula, chiste, memoria, crónica, anécdota, reportaje.
+            p <b> Ejemplos: </b> noticias, novelas, historias, mitos, fábulas, chistes, memorias, crónicas, anécdotas, reportajes.
         
           .col-md-5
             figure
@@ -175,11 +175,11 @@
             figure
               img(src='@/assets/curso/images/tema1/img_5.png', alt='Texto que describa la imagen')
         
-      .py-4.py-md-5(titulo="Texto argumentativo:" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
+      .py-4.py-md-5(titulo="Texto argumentativo" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Texto argumentativo:
-            p Intención comunicativa: transmitir información desde una perspectiva subjetiva. Expresa opiniones y defiende ideas.
+            p <b> Intención comunicativa: </b> transmitir información desde una perspectiva subjetiva. Expresa opiniones y defiende ideas.
             p <b> Responde a: </b> ¿Qué pienso?
             p <b> Estructura: </b> introducción, tesis (afirmación que se pone en debate), argumentación (ejemplificación, analogía, pregunta retórica, cita de autoridad, entre otros) y conclusión.
             p <b> Ejemplos: </b> artículos de opinión, críticas de prensa, artículos académicos, discursos o panfletos políticos, ensayos, campañas ecológicas, editoriales de medios, cartas de recomendación, poesía.
@@ -189,20 +189,20 @@
               img(src='@/assets/curso/images/tema1/img_6.png', alt='Texto que describa la imagen')
     
 
-      .py-4.py-md-5(titulo="Texto explicativo:" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
+      .py-4.py-md-5(titulo="Texto explicativo" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
         .row.justify-content-center    
           .col-md-6
             h4 Texto explicativo: 
             p <b> Intención comunicativa: </b> dar información acerca de algo de forma objetiva, coherente, puntual y clara. Pueden ser divulgativos o especializados, de acuerdo con el público. También se conoce como texto expositivo.
             p <b> Responde a: </b> ¿Por qué es así?
             p <b> Estructura: </b> presentación / marco, planteamiento del problema (explícito o implícito), respuesta al problema y evaluación conclusiva.
-            p <b> Ejemplos: </b> enciclopedias, libros de texto, artículos de divulgación, instrucciones uso, reseñas biográficas, fichas bibliográficas, bibliografías, textos jurídicos, informes médicos, recetas
+            p <b> Ejemplos: </b> enciclopedias, libros de texto, artículos de divulgación, instrucciones de uso, reseñas biográficas, fichas bibliográficas, bibliografías, textos jurídicos, informes médicos, recetas
           .col-md-5.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/images/tema1/img_7.png', alt='Texto que describa la imagen')
   
       
-      .py-4.py-md-5(titulo="Texto dialogado o dialógico:" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
+      .py-4.py-md-5(titulo="Texto dialogado o dialógico" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Texto dialogado o dialógico:

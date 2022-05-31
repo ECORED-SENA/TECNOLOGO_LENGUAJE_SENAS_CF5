@@ -13,7 +13,7 @@
 
 
     #t_2_1.titulo-segundo
-      .h2 2.1  Definición
+      .h2 2.1 Conceptos
     
     .row.mb-3
       .col-lg-12
@@ -43,8 +43,6 @@
               tr.th-1
                 td <b> López Guix y Minett Wilkinson, (1997) </b>
                 td Sostienen que en la medida en que la traducción es una técnica, es posible hacer cierto tipo de generalizaciones; pero en la medida en que es un arte, sólo la intuición y la sensibilidad lingüística del traductor pueden decidir si la solución general es aplicable a cada caso concreto.
-        figcaption 
-          p.mb-0 Nota. Tomado de ISACA (s.f.).
 
     Separador
 
@@ -108,7 +106,7 @@
           .col-lg-3.mb-3
             img(src='@/assets/curso/images/tema2/img_3.png'  alt='', style="width:600px; display:block; margin:auto 0 ;")
           .col-lg-9
-            p.mb-3 Esta se relaciona con la publicidad y el marketing, aquí se encuentran los folletos, catálogos información promocional de una empresa y las campañas publicitarias en las que se ofrecen productos o servicios. Hay que recordar que para esta especialidad se requiere que el traductor comprenda la creatividad lingüística que se halla en este tipo de escritura, ya que en la publicidad se juega con el idioma y la terminología para lograr el impacto publicitario esperado.
+            p.mb-3 Esta se relaciona con la publicidad y el marketing, aquí se encuentran los folletos, catálogos de información promocional de una empresa y las campañas publicitarias en las que se ofrecen productos o servicios. Hay que recordar que para esta especialidad se requiere que el traductor comprenda la creatividad lingüística que se halla en este tipo de escritura, ya que en la publicidad se juega con el idioma y la terminología para lograr el impacto publicitario esperado.
 
       
       div(titulo="Traducción especializada.")
@@ -130,22 +128,22 @@
           .row.justify-content-center
             .col-5
               img(src='@/assets/curso/images/tema2/ico_1.svg' alt='', style="width:100px; display:block; margin:-4rem 0 ;").mb-2
-          h4.text-center.mt-5 La traducción palabra por palabra.
+          h4.text-center.mt-5 La traducción palabra por palabra
           p.text-center  Consiste en conservar la estructura de la frase, traducir las palabras una a una extrayendo su significado más literal, aunque este salga de contexto. Aquí, las expresiones culturales se traducen literalmente. Este proceso se vuelve ventajoso para entender cómo aprender a traducir un texto complejo. 
       .col-lg-4.col-auto.mb-3.mb-lg-0.mb-5
         .tarjeta.tranform.p-4
           .row.justify-content-center
             .col-5
               img(src='@/assets/curso/images/tema2/ico_2.svg'  alt='', style="width:100px; display:block; margin:-4rem 0 ;").mb-3
-          h4.text-center.mt-5 Traducción fiel. 
-          p.text-center.mb-5  Está determinada por la estructura gramatical y su objetivo es traducir exactamente el significado del texto original, tratando de guardar fidelidad al diseño del texto origen.
+          h4.text-center.mt-5 Traducción fiel
+          p.text-center.mb-5  Está determinada por la estructura gramatical y su objetivo es traducir exactamente el significado del texto original, tratando de guardar fidelidad al diseño del texto de origen.
       .col-lg-4.col-auto.mb-3.mb-lg-0
         .tarjeta.tranform.p-4
           .row.justify-content-center
             .col-5
               img(src='@/assets/curso/images/tema2/ico_3.svg'  alt='', style="width:100px; display:block; margin:-4rem 0 ;")
-          h4.text-center.mt-5 Adaptación. 
-          p.text-center Comúnmente utilizado en poesía, obras de teatro y cine. Debido a las diferencias culturales, existen expresiones que únicamente son comprensibles en el lugar de origen de dicha expresión. En este método se adaptan en el texto expresiones que les sean familiares a quienes las van a leer, aunque el significado de las palabras no sea el mismo. Podemos tomar el caso de la expresión en inglés Friday 13th (día de la mala suerte o del terror), desde nuestra realidad cultural, en español se podría adaptar a Martes 13.
+          h4.text-center.mt-5 Adaptación
+          p.text-center Comúnmente utilizado en poesía, obras de teatro y cine. Debido a las diferencias culturales, existen expresiones que únicamente son comprensibles en el lugar de origen de dicha expresión. En este método se adaptan en el texto expresiones que les sean familiares a quienes las van a leer, aunque el significado de las palabras no sea el mismo. Podemos tomar el caso de la expresión en inglés <i> Friday </i> 13th (día de la mala suerte o del terror), desde nuestra realidad cultural, en español se podría adaptar a Martes 13.
 
     Separador
 
@@ -154,14 +152,14 @@
 
     p.mb-3 Para realizar la ardua labor de llevar un texto de un idioma a otro procurando la mayor claridad y fidelidad posible al texto original, se requiere contar con diferentes recursos técnicos que, afortunadamente hoy en el mundo del traductor ya se cuentan, como también de una plataforma tecnológica que facilite la tarea. Entre estos recursos técnicos podemos hablar de: libros y revistas de traducción; diccionarios para traductores; glosarios de traducción; foros de traducción.
 
-    p.mb-3 En el campo de la lengua de señas, teniendo en cuenta que a esta lengua se considera ágrafa, existe un sistema de escritura llamado signwriting, que permite graficar de manera comprensible lo expresado en dicha lengua. Además, cabría mencionar sobre sistemas individuales que algunos sordos crean para hacer sus escritos, realizar exposiciones o simplemente para tomar notas personales.
+    p.mb-3 En el campo de la lengua de señas, teniendo en cuenta que a esta lengua se considera ágrafa, existe un sistema de escritura llamado <i> signwriting </i>, que permite graficar de manera comprensible lo expresado en dicha lengua. Además, cabría mencionar sobre sistemas individuales que algunos sordos crean para hacer sus escritos, realizar exposiciones o simplemente para tomar notas personales.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-down")
         img(src="@/assets/curso/images/tema2/img_5.png")
 
 
-    p.mb-3 Como recursos tecnológicos para traducir textos, hay una gama variada de plataformas tecnológicas y didácticas que optimizan el proceso, como traductores de voz que a medida que la persona va hablando, un dispositivo traduce lo que se dice de forma casi simultánea. Hasta en algunos lugares se habla sobre cómo las nuevas tecnologías podrían sustituir los traductores e intérpretes ya que la inteligencia artificial posibilitará una mayor eficacia en el proceso traductor. 
+    p.mb-3 Como recursos tecnológicos para traducir textos, hay una gama variada de plataformas tecnológicas y didácticas que optimizan el proceso, como traductores de voz que a medida que la persona va hablando, un dispositivo traduce lo que se dice de forma casi simultánea. Hasta en algunos lugares se habla sobre cómo las nuevas tecnologías podrían sustituir a los traductores e intérpretes ya que la inteligencia artificial posibilitará una mayor eficacia en el proceso traductor. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-5.mb-lg-0(data-aos="fade-right")
@@ -169,7 +167,7 @@
       .col-12.col-lg-7.mb-5.mb-lg-0(data-aos="fade-left")
         p.mb-3 Cuando se habla de la lengua de señas, podríamos pensar en avances similares. En países como España, específicamente en la Universidad Politécnica de Madrid, se ha venido desarrollando un módulo de traducción automática que hace reconocimiento de voz y traduce a Lengua de Señas Española (LSE). En nuestro país, en la Universidad Distrital Francisco José de Caldas de la ciudad de Bogotá, en el año 2013 se desarrolló una herramienta tecnológica que permite mejorar el aprendizaje de la lengua de señas colombiana en los niños con discapacidad auditiva. 
 
-        p.mb-0 Podemos ver que en un futuro cercano contaremos con herramientas tecnológicas que optimizan el proceso traductor, las cuales será de gran ayuda al momento de llevar un texto escrito o texto graficado en lengua de señas.
+        p.mb-0 Podemos ver que en un futuro cercano contaremos con herramientas tecnológicas que optimizarán el proceso traductor, las cuales será de gran ayuda al momento de llevar un texto escrito o texto graficado en lengua de señas.
           
 
 
