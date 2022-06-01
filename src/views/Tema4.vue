@@ -110,7 +110,10 @@
                             | Lo abstracto por lo concreto o lo general por lo particular (o viceversa).
                           li
                             i.fas.fa-check
-                            | Explicativa, la causa por el efecto. La parte por el todo.
+                            | Explicativa, la causa por el efecto. 
+                          li
+                            i.fas.fa-check
+                            | La parte por el todo.
                           li 
                             i.fas.fa-check
                             | La parte por el todo.
@@ -140,7 +143,7 @@
                             | <i> Blind  flying </i> - Pilotaje sin visibilidad (volar a ciegas).
                           li 
                             i.fas.fa-check
-                            | <i> Peaceful and still </i> - Pacífico y sereno.
+                            p <i> Peaceful and still </i> - Pacífico y sereno.
 
         .row.justify-content-center.align-items-center.p-5
           h3 Transposición
@@ -159,7 +162,7 @@
                   tbody
                     tr
                       td
-                        ul.lista-ul
+                        ul.lista-ul.margin-list-3
                           li 
                             i.fas.fa-check
                             | Lograr la naturalidad de expresión en el léxico, la estructura y el enunciado.
@@ -168,7 +171,7 @@
                             | Cambio en una categoría gramatical o, en otras palabras, una parte de la oración o la condición morfológica de una palabra.
                         
                       td
-                        ul.lista-ul.mt-5
+                        ul.lista-ul.mt-5.margin-list-2
                           li 
                             i.fas.fa-check
                             | Doble transposición (doble recategorización).
@@ -192,16 +195,16 @@
                             | Adjetivo / verbo.
           
                       td 
-                        ul.lista-ul.margin-list-2
+                        ul.lista-ul.margin-list-3
                           li 
                             i.fas.fa-check
-                            | <i> I won’t be late </i>- No tardaré.
+                            p <i> I won’t be late </i>- No tardaré.
                           li
                             i.fas.fa-check
-                            | <i> He learns quickly </i> - Es veloz para aprender.
+                            p <i> He learns quickly </i> - Es veloz para aprender.
                           li 
                             i.fas.fa-check
-                            | <i> Waiting for your letter </i> - A la espera de su carta.
+                            p <i> Waiting for your letter </i> - A la espera de su carta.
 
 
 
@@ -222,7 +225,7 @@
                   tbody
                     tr
                       td
-                        ul.lista-ul
+                        ul.lista-ul.margin-list-2
                           li 
                             i.fas.fa-check
                             | Trasvase o equivalencia monema por monema. 
@@ -233,13 +236,13 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | <i> I am reading a book </i> - Yo estoy leyendo un libro.
+                            p <i> I am reading a book </i> - Yo estoy leyendo un libro.
                           li
                             i.fas.fa-check
-                            | <i> As a whole </i> – Como un todo (En conjunto).
+                            p <i> As a whole </i> – Como un todo (En conjunto).
                           li
                             i.fas.fa-check
-                            | <i> I’m late </i> – Estoy tarde (llegué tarde).
+                            p <i> I’m late </i> – Estoy tarde (llegué tarde).
             
         
         .row.justify-content-center.align-items-center.p-5
@@ -286,7 +289,7 @@
                             | <i> Handball </i> – Balonmano
                           li
                             i.fas.fa-check
-                            | <i> Headhunder </i> - Cazatalentos
+                            | <i>  Headhunter </i> - Cazatalentos
                           li 
                             i.fas.fa-check
                             | <i> Skyscraper  </i> – Rascacielos.
@@ -378,17 +381,17 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | <i> It’s raining cats and dogs  </i> - Llueve a cántaros..
+                            p <i> It’s raining cats and dogs  </i> - Llueve a cántaros..
                           li
                             i.fas.fa-check
-                            | <i> To pull somebody’s leg </i>- Tomar del pelo a alguien.
+                            p <i> To pull somebody’s leg </i>- Tomar del pelo a alguien.
 
                           li 
                             i.fas.fa-check
-                            | <i> Haste makes waste </i> – Del afán no queda sino el cansancio.
+                            p <i> Haste makes waste </i> – Del afán no queda sino el cansancio.
                           li 
                             i.fas.fa-check
-                            | <i> There are as like as two peas </i> – Son como dos gotas de agua.
+                            p <i> There are as like as two peas </i> – Son como dos gotas de agua.
 
         .row.justify-content-center.align-items-center.p-5
           h3  Adaptación
