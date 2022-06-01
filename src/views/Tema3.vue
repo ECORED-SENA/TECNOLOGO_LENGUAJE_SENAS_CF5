@@ -193,19 +193,16 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check
-                  | La relación entre las dos culturas: cuál es dominante, hay paridad o similitud, lejanía, cercanía, equivalencias, términos inexistentes, gestos, conceptos, comportamientos, injerencias (cuando la cultura toma prestados elementos de otra).
+                  | Toma posición ante las ideas de la lengua origen.
                 li
                   i.fas.fa-check
-                  | Características de la lengua origen que pueden condicionar el culturema.
+                  | Adopta una postura crítica.
                 li 
                   i.fas.fa-check
-                  | Carácter del culturema (grado de universalidad).
+                  | Imprime una huella con su presencia.
                 li 
                   i.fas.fa-check
-                  | Características del receptor.
-                li 
-                  i.fas.fa-check
-                  | Objetivo de la traducción o interpretación.
+                  | Alterando la estructura del discurso. 
            
     
     p.mb-5 El esfuerzo por crear una traducción clara, natural y fluida hace que la equivalencia discursiva se vea amenazada por la voz, la crítica o la duda del traductor. La presencia del traductor puede hacerse evidente al punto de controlar la palabra y mezclarse en el discurso, esto es especialmente notorio cuando se toman decisiones sobre cuándo mantener la estructura de la lengua origen y cuándo alterarla. 

@@ -167,7 +167,7 @@
       .col-12.col-lg-7.mb-5.mb-lg-0(data-aos="fade-left")
         p.mb-3 Cuando se habla de la lengua de señas, podríamos pensar en avances similares. En países como España, específicamente en la Universidad Politécnica de Madrid, se ha venido desarrollando un módulo de traducción automática que hace reconocimiento de voz y traduce a Lengua de Señas Española (LSE). En nuestro país, en la Universidad Distrital Francisco José de Caldas de la ciudad de Bogotá, en el año 2013 se desarrolló una herramienta tecnológica que permite mejorar el aprendizaje de la lengua de señas colombiana en los niños con discapacidad auditiva. 
 
-        p.mb-0 Podemos ver que en un futuro cercano contaremos con herramientas tecnológicas que optimizarán el proceso traductor, las cuales será de gran ayuda al momento de llevar un texto escrito o texto graficado en lengua de señas.
+        p.mb-0 Podemos ver que en un futuro cercano contaremos con herramientas tecnológicas que optimizarán el proceso traductor, las cuales serán de gran ayuda al momento de llevar un texto escrito o texto graficado en lengua de señas.
           
 
 

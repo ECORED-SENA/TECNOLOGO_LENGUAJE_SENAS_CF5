@@ -93,7 +93,7 @@
                   tbody
                     tr
                       td
-                        ul.lista-ul.margin-list
+                        ul.lista-ul.margin-list-1
                           li 
                             i.fas.fa-check
                             | Cambio en el punto de vista.
@@ -113,6 +113,9 @@
                             | Explicativa, la causa por el efecto. La parte por el todo.
                           li 
                             i.fas.fa-check
+                            | La parte por el todo.
+                          li 
+                            i.fas.fa-check
                             | Una parte por otra.
                           li 
                             i.fas.fa-check
@@ -128,7 +131,7 @@
                             | Forma usual, por una culta.
           
                       td 
-                        ul.lista-ul
+                        ul.lista-ul.margin-list-1
                           li 
                             i.fas.fa-check
                             | <i> Don’t get so excited </i>- Tranquilízate.
@@ -189,7 +192,7 @@
                             | Adjetivo / verbo.
           
                       td 
-                        ul.lista-ul
+                        ul.lista-ul.margin-list-2
                           li 
                             i.fas.fa-check
                             | <i> I won’t be late </i>- No tardaré.
@@ -241,7 +244,7 @@
         
         .row.justify-content-center.align-items-center.p-5
           h3 Calco
-          p.mb-3 Similar a la traducción literal, el calco adopta la estructura y las expresiones de la lengua origen y las traslada a la lengua meta, pero sin respetar su estructura y creando un neologism
+          p.mb-3 Similar a la traducción literal, el calco adopta la estructura y las expresiones de la lengua origen y las traslada a la lengua meta, pero sin respetar su estructura y creando un neologismo.
           .col-md-10.mb-4.mb-md-0
             .tabla-a.color-acento-contenido.bac-table.mb-5 
                 table
@@ -259,7 +262,7 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | Toma prestado el headhunter de la lengua origen.
+                            |	Toma prestada el sintagma de la lengua origen.
                           li
                             i.fas.fa-check
                             | Se traducen literalmente los elementos que lo componen.
@@ -324,7 +327,7 @@
                             | Extranjerismo naturalizado.
                           li 
                             i.fas.fa-check
-                            | Préstamo necesario (pertinente)
+                            | Préstamo necesario (pertinente).
                           li 
                             i.fas.fa-check
                             | Préstamo innecesario.
@@ -336,7 +339,7 @@
                             | Blue jeans.
                           li
                             i.fas.fa-check
-                            | Sándwich
+                            | Sándwich.
                           li 
                             i.fas.fa-check
                             | Software.
@@ -432,15 +435,15 @@
                         ul.lista-ul
                           li 
                             i.fas.fa-check
-                            | Tomar el té (en Inglaterra). - Tomar un café (en Colombia). - Tomar un vino (en Argentina).
+                            P Tomar el té (en Inglaterra). - Tomar un café (en Colombia). - Tomar un vino (en Argentina).
                           li
                             i.fas.fa-check
-                            | <i> Friday </i> 13th. - martes 13 (Día de la mala suerte). <i> Come rain or come shine. </i> - Pase lo que pase.
+                            P <i> Friday </i> 13th. - martes 13 (Día de la mala suerte). <i> Come rain or come shine. </i> - Pase lo que pase.
 
 
                           li 
                             i.fas.fa-check
-                            | <i> He kissed his daughter on the mouth. </i> - Abrazó tiernamente a su hija.
+                            P <i> He kissed his daughter on the mouth. </i> - Abrazó tiernamente a su hija.
           
       
 

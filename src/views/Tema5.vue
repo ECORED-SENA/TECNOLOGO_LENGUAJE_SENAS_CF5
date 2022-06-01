@@ -12,7 +12,7 @@
         img(src="@/assets/curso/images/tema5/img_1.png")
 
     #t_5_1.titulo-segundo
-      .h2 5.1 Concepto del discurso
+      .h2 5.1 Concepto 
     
   
     p.mb-3 La sociolingüística se centra en fronteras sociales, identifica los procesos de cambios en la lengua y la heterogeneidad lingüística y social y se orienta especialmente en los centros urbanos. “La sociolingüística examina preguntas como ¿Cuál es la diferencia entre lengua y dialecto? ¿Por qué “suenan diferente”, por ejemplo, un mexicano, un español y un chileno cuando hablan la misma lengua, el castellano o el español? ¿Qué nos motiva a elegir una forma de decir algo entre varias alternativas similares? ¿Por qué cambian las lenguas y no hablamos hoy como hablaban, por ejemplo, Cervantes o Bolívar, en el caso del castellano ¿Qué es lo que sabemos cuándo solo a partir de la manera de hablar de una persona, sin necesidad de verla, podemos adivinar su nivel de instrucción, su sexo, su religión o país de origen e incluso su edad? lingüísticamente hablando, ¿es bilingüe la suma de dos monolingües? ¿Cuánto y cómo cambia una lengua en una situación de bilingüismo social?”. Silva-Corvalán (2001).
@@ -409,7 +409,7 @@
                   
                 p <b> Matriz articulatoria: </b> configuración manual, ubicación y orientación del articulador.
                 
-          .tarjeta.back-tab.px-5.py-4(titulo="La actividad de la mano")
+          .tarjeta.back-tab.px-5.py-4(titulo="La actividad de la mano:")
             h4 La actividad de la mano: matriz segmental compuesta por:
             .row.px-2.py-2.justify-content-center
               .col-lg-3.mb-3
