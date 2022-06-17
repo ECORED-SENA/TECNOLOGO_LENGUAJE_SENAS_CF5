@@ -116,6 +116,9 @@
                             | La parte por el todo.
                           li 
                             i.fas.fa-check
+                            | Una parte por otra.
+                          li 
+                            i.fas.fa-check
                             | Inversión de términos o de punto de vista.
                           li 
                             i.fas.fa-check
